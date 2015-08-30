@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vegetariano"
+title:  "Escolhi ser vegetariano"
 date:   2015-08-29 11:48:17
 categories: Estilo de vida
 ---

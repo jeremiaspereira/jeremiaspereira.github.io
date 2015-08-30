@@ -9,6 +9,32 @@ dl, dd, ol, ul, figure {
 }
 
 
+@font-face {
+  font-family: "Raleway";
+  src: url(../assets/fonts/raleway/Raleway-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../assets/fonts/raleway/Raleway-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../assets/fonts/raleway/Raleway-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../assets/fonts/raleway/Raleway-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../assets/fonts/raleway/Raleway-Bold.ttf);
+  font-weight: bold;
+}
+
 
 /**
  * Basic styling
@@ -23,6 +49,11 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
+html {
+  font-size: 58%;
+  @media (min-width: $screen-xs-max){ font-size: 60%; }
+  @media (min-width: $screen-sm-max){ font-size: 62.5%; }
+}
 
 
 /**
@@ -149,25 +180,15 @@ pre {
 }
 
 
-
 /**
  * Wrapper
  */
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
 }
 
 

@@ -2,21 +2,34 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    width:100%;
+    padding:10px 0 10px 0;
+    background:#eee;
+    border-bottom: double medium #ddd;
 
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
+    @media (min-width: $screen-sm-max){
+      bottom: 0;
+      left: 0;
+      position: fixed;
+      text-align: left;
+      top: 0;
+      width: 250px;
+      border-left: solid 1px #E9E9E9;
+      padding: $spacing-unit 0;
+    }
 }
 
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight:normal;
+    font-size: 1.2em;
+    margin: 5px 0;
+    text-align: center;
+    a{
+      &:hover{
+        text-decoration: none;
+      }
+    }
 
     &,
     &:visited {
@@ -24,137 +37,16 @@
     }
 }
 
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
+.menu-paginas{
+  text-align: center;
 }
 
-
-
-/**
- * Site footer
- */
-.site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
-}
-
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
-
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
+.logo{
+  background:url("../assets/img/avatar.png");
+  width:100px;
+  height:100px;
+  border-radius:100%;
+  margin:auto;
 }
 
 
@@ -164,11 +56,12 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+
+    @media (min-width: $screen-sm-max){
+      margin-left: 270px;
+    }
 }
 
-.page-heading {
-    font-size: 20px;
-}
 
 .post-list {
     margin-left: 0;
@@ -182,12 +75,12 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 2.0em;
     padding:0;
 }
 
@@ -201,94 +94,96 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 2.0em;
     letter-spacing: -1px;
     line-height: 1;
 
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
-
+    p{
+      font-size: 1.2em;
+    }
     h2 {
         font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
     }
 
     h3 {
         font-size: 26px;
 
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
     }
 
     h4 {
         font-size: 20px;
 
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
     }
 }
 
 /* social*/
 
 .social{
-  text-align: center;
+  height:32px;
+  margin:0 10px;
+  @media (min-width: $screen-sm-max){
+    margin-top: 10px;
+    border-top: double medium #ddd;
+    border-bottom: double medium #ddd;
+
+  }
+
+  .content{
+    text-align: center;
+  }
+
   i{
-    padding:10px;
-    font-size: 1.5em;
-    color:#fff;
+    margin: 5px 0;
+    padding:2px;
+    font-size: 1.2em;
+
   }
 }
 
 .fa-google-plus{
-  background: $google-plus;
+  color: $google-plus;
     &:hover{
-      background: lighten($google-plus, 10%);
-      border-bottom: solid 3px $google-plus;
+      color: lighten($google-plus, 10%);
+      border-bottom: solid 2px $google-plus;
     }
   }
 
 .fa-twitter{
-  background:$twitter;
+  color:$twitter;
   &:hover{
-    background: lighten($twitter, 10%);
-    border-bottom: solid 3px $twitter;
+    color: lighten($twitter, 10%);
+    border-bottom: solid 2px $twitter;
   }
 }
 .fa-flickr{
-  background: $flickr;
+  color: $flickr;
   &:hover{
-    background: lighten($flickr, 10%);
-    border-bottom: solid 3px $flickr;
+    color: lighten($flickr, 10%);
+    border-bottom: solid 2px $flickr;
   }
 }
 .fa-linkedin{
-  background:$linkedin;
+  color:$linkedin;
   &:hover{
-    background: lighten($linkedin, 10%);
-    border-bottom: solid 3px $linkedin;
+    color: lighten($linkedin, 10%);
+    border-bottom: solid 2px $linkedin;
   }
 }
 .fa-instagram{
-  background:$instagram;
+  color:$instagram;
   &:hover{
-    background: lighten($instagram, 10%);
-    border-bottom: solid 3px $instagram;
+    color: lighten($instagram, 10%);
+    border-bottom: solid 2px $instagram;
   }
 }
 .fa-github{
-  background:$github;
+  color:$github;
   &:hover{
-    background: lighten($github, 10%);
-    border-bottom: solid 3px $github;
+    color: lighten($github, 10%);
+    border-bottom: solid 2px $github;
   }
 }
