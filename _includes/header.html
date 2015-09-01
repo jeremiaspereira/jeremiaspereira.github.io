@@ -8,6 +8,9 @@
     </div>
 
     <div class="menu-paginas">
+      <a class="page-link" href="http://jeremiaspereira.net/portfolio/">Portfólio</a> |
+
+
       {% for page in site.pages %}
         {% if page.title %}
         <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
