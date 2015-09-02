@@ -21,10 +21,11 @@
 
 .site-title {
     text-align: center;
+    font-family: "Lato","Helvetica",Helvetica,Arial,sans-serif;
+    letter-spacing: 0.06em;
     a{
-      font-family: 'Open Sans Condensed', sans-serif;
+    color:#393939;
       font-size: 1.3em;
-      color: #333;
       line-height: 2.0em;
       &:hover{
         text-decoration: none;
@@ -43,8 +44,8 @@
 
 .logo{
   background:url("../assets/img/avatar.png");
-  width:100px;
-  height:100px;
+  width:120px;
+  height:120px;
   border-radius:100%;
   margin:auto;
 }
@@ -77,23 +78,29 @@
 
 .post-title {
   a{
-    color:#5DA8EE;
-    display: block;
-    font-size: 1.7em;
-    font-weight: 400;
-    padding:0;
+    font-family: "Lato","Helvetica",Helvetica,Arial,sans-serif;
+    font-size: 2.0em;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    margin-bottom: 1.25rem;
+    margin-top: 2.25rem;
     &:hover{
         text-decoration: none;
       }
   }
 }
 
-
 /**
  * Posts
  */
-.post-header {
-    margin-bottom: $spacing-unit;
+.post{
+  .post-title{
+    font-family: "Lato","Helvetica",Helvetica,Arial,sans-serif;
+    font-size: 2.0em;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    margin-bottom: 1.25rem;
+  }
 }
 
 .post-content {
@@ -112,7 +119,6 @@
     margin-top: 10px;
     border-top: double medium #ddd;
     border-bottom: double medium #ddd;
-
   }
 
   .content{
@@ -169,4 +175,24 @@
     color: lighten($github, 10%);
     border-bottom: solid 2px $github;
   }
+}
+
+.fa-facebook{
+  color:$facebook;
+  &:hover{
+    color: lighten($facebook, 10%);
+    border-bottom: solid 2px $facebook;
+  }
+}
+
+// social share post
+.share-page {
+    text-align: center;
+    margin: 1.5 * $spacing-unit 0;
+
+    a {
+        font-size: 1.1em;
+        font-weight: 700;
+        margin-left: 15px;
+      }
 }
