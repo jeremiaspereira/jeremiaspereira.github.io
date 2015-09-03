@@ -40,6 +40,9 @@
 
 .menu-paginas{
   text-align: center;
+  a{
+    display: block;
+  }
 }
 
 .logo{
@@ -79,7 +82,7 @@
 .post-title {
   a{
     font-family: "Lato","Helvetica",Helvetica,Arial,sans-serif;
-    font-size: 2.0em;
+    font-size: 1.8em;
     font-weight: 700;
     letter-spacing: 0.03em;
     margin-bottom: 1.25rem;
