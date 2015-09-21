@@ -3,6 +3,7 @@ layout: post
 title:  "Pico dos Marins"
 date:   2015-05-24 11:48:17
 description: "Um pouco sobre o Pico dos Marins e algumas fotos que fiz lá."
+tag: esportes
 ---
 
 O Pico dos Marins fica situado na divisa dos municípios de Piquete e Cruzeiro, no estado de São Paulo, Brasil. Localizado na Serra da Mantiqueira, seu cume está 2420,7 metros acima do nível do mar, sendo o 26° pico mais alto do país. Disponível em: <a href="http://pt.wikipedia.org/wiki/Pico_dos_Marins" target="_blank">http://pt.wikipedia.org/wiki/Pico_dos_Marins</a> Acesso em: 26 mai 2015.

@@ -108,8 +108,9 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-    p{
+    p, li{
       font-size: 1.2em;
+      font-weight: 400;
     }
 }
 

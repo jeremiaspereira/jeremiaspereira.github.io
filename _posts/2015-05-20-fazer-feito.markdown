@@ -3,6 +3,7 @@ layout: post
 title:  "fazer/feito"
 date:   2015-05-20 11:48:17
 description: "Uma aplicação de lista de tarefas usando AngularJs e PHP de Back End"
+tag: dev
 ---
 
 Olá, hoje vou falar um pouco sobre essa aplicação bem básica que fiz com o intuito de estudar, é apena umas lista de tarefas, mais envolveu coisas que ainda não tinha feito ou usado por ser refém de um Framework, a aplicação está no meu <a href="https://github.com/jeremiaspereira/fazer-feito" target="_blank">GitHub</a>.
