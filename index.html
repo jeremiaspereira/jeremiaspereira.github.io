@@ -11,8 +11,25 @@ layout: default
           </div>
 
           <div class="post-meta">
-            {{ post.date | date: "%b %-d, %Y" }}
+            {% assign m = post.date | date: "%-m" %}
+            {{ post.date | date: "%-d" }}
+            {% case m %}
+              {% when '1' %}Janeiro
+              {% when '2' %}Fevereiro
+              {% when '3' %}Março
+              {% when '4' %}Abril
+              {% when '5' %}Maio
+              {% when '6' %}Junho
+              {% when '7' %}Julho
+              {% when '8' %}Agosto
+              {% when '9' %}Setembro
+              {% when '10' %}Outubro
+              {% when '11' %}Novembro
+              {% when '12' %}Dezembro
+            {% endcase %}
+            {{ post.date | date: "%Y" }}
           </div>
+
           <p class="description">
             {{ post.content | strip_html | truncatewords:40 }}
             <a href="{{ post.url | prepend: site.baseurl }}" class="link">Continuar lendo</a>
