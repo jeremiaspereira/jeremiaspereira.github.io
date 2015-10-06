@@ -3,7 +3,10 @@ layout: post
 title:  "Pedra da Mina"
 date:   2015-09-02 11:48:17
 description: "Um pouco sobre a Pedra da Mina e alguams fotos e dicas."
-tag: esportes
+tag:
+  - Fotografia
+  - Montanhas
+  - Esportes
 ---
 
 O primeiro vez a gente nunca esquece, meu primeiro acampar de verdade foi na Pedra da Mina, ela é mágica e alcançar seu cume foi uma vitória.

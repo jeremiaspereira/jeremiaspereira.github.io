@@ -7,13 +7,6 @@
       <a  href="{{ site.baseurl }}/">{{ site.title }}</a>
     </div>
 
-    <div class="menu-paginas">
-      {% for page in site.pages %}
-        {% if page.title %}
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}
-      {% endfor %}
-    </div>
 
     <div class="social">
       <div class="content">
@@ -27,4 +20,15 @@
       </div>
     </div>
 
+    <div class="menu-paginas">
+      <a  href="{{ site.baseurl }}/"><i class="fa fa-home"></i> Home</a>
+      <a  href="{{ site.baseurl }}/sobre"><i class="fa fa-male"></i> Sobre</a>
+      <a href="{{ site.baseurl }}/portfolio/"><i class="fa fa-code"></i> Portfólio</a>
+      <a href="{{ site.baseurl }}/tags/"><i class="fa fa-tag"></i>  Tags</a>
+      <!--{% for page in site.pages %}
+        {% if page.title %}
+        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        {% endif %}
+      {% endfor %}-->
+    </div>
 </header>

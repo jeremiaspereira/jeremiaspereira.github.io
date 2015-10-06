@@ -3,7 +3,7 @@ layout: post
 title:  "Vegetariano"
 date:   2015-08-29 11:48:17
 description: "Um pouco sobre porque me tornei vegetariano."
-tag: estilo de vida
+tag: Estilo de vida
 ---
 
 Ser vegetariano não é só comer alface, é uma filosofia de vida, um refletir sobre vida, sobre nós e os animais. Quando a decisão por essa dieta ocorre por vontade própria, é porque algo levou a reflexão sobre o fato da necessidade de um animal viver uma vida de sofrimento e morrer para nos servir de alimento. Para mim isso foi quando uma amiga vegetariana em um passeio fotográfico foi chamada para ir a churrascaria e a resposta dela foi “Eu não vou comer bicho morto…”. Essa foi a frase que me fez acordar para a vida e ecoa em minha cabeça até hoje. Então decidi conhecer mais sobre vegetarianismo, algo desconhecido para mim na época, graças à internet aprendi muito e vi que muitas pessoas seguiam esse dieta sem crueldades, decidi então aderir à dieta que nosso corpo foi preparada para ter.

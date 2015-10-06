@@ -3,7 +3,7 @@ layout: post
 title:  "O que fiz quando perdi meu emprego"
 date:   2015-09-21 21:00:00
 description: "Sou Analista de Sistemas e fiquei desempregado, ralei um pouco até voltar para o mercado de trabalho, mais voltei e continuo ralando."
-tag: dev
+tag: compartilhando
 ---
 Olá, vivemos em um momento que a palavra crise virou um mantra, o medo de perder o emprego tomou conta de grande parte das pessoas e também tem gente colocando desculpa na crise por não conseguir se empregar, tenho visto pessoas da área de TI dizendo que estão desempregadas a mais de cinco, seis, sete ... Meses, na boa, a coisa não está tão feia assim, isso se chama comodismo, ficar esperando que um emprego caia em seu colo ou que um milagre vai acontecer e você vai acordar com um belo de um emprego, "Acorda malandro e vai trabalhar (...)" isso não vai acontecer, salve se tiver uma rede de contatos quente.
 
