@@ -6,7 +6,6 @@ description: "Dicas para o seu dia-a-dia"
 tag: Dicas
 ---
 
-
 Essa é a primeira dica, muitos já conhecem já outros não, para você que ainda não usa ou nunca ouviu falar, o [Trello](https://trello.com/){:target="_blank"} é uma aplicação para criar listas de tarefas do tipo Kanban, ou seja são basicamente três listas:
 
 * DO  >> As tarefas a serem feitas;
@@ -24,8 +23,10 @@ Mais nada impede de você dar o nome que quiser para suas listas, fica a gosto. 
 * Atalhos que facilitam seu uso;
 * Configuração de notificações quando alguma atividade das listas sofrerem alteração, quando se trabalha em equipe isso é muito bom.
 
-### Conhecendo o Trello
+### Saiba +
 
-* [Trello](https://trello.com/){:target="_blank"}
-* [Trelo inspiration](https://trello.com/inspiration){:target="_blank"}
-* [Trelo shortcuts](https://trello.com/shortcuts){:target="_blank"}
+#### [<i class="fa fa-external-link"></i> Trello](https://trello.com/){:target="_blank"}
+
+#### [<i class="fa fa-external-link"></i> Trelo inspiration](https://trello.com/inspiration){:target="_blank"}
+
+#### [<i class="fa fa-external-link"></i> Trelo shortcuts](https://trello.com/shortcuts){:target="_blank"}
