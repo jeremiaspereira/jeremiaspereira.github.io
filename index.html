@@ -30,6 +30,7 @@ layout: default
             {{ post.date | date: "%Y" }}
           </div>
 
+
           <p class="description">
             {{ post.content | strip_html | truncatewords:40 }}
             <a href="{{ post.url | prepend: site.baseurl }}" class="link">Continuar lendo</a>
