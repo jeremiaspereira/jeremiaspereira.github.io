@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dica #02 :: Evernote"
-date:   2015-12-13 22:48:17
+date:   2015-10-13 22:48:17
 description: "Dicas para o seu dia-a-dia"
 tag: Dicas
 ---

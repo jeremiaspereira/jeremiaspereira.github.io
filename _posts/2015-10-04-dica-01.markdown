@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dica #01 :: Trello"
-date:   2015-12-04 11:48:17
+date:   2015-10-04 11:48:17
 description: "Dicas para o seu dia-a-dia"
 tag: Dicas
 ---
