@@ -5,13 +5,15 @@
     width:100%;
     padding:30px 0 10px 0;
     background:$background-header;
+    border-bottom: solid 5px lighten($background-header, 10%);
 }
 
 .site-title {
     text-align: center;
     font-family: "Lato","Helvetica",Helvetica,Arial,sans-serif;
     letter-spacing: 0.08em  ;
-    padding-top:20px;
+    padding-top:10px;
+    text-transform: uppercase;
     a{
       font-size: 1.2em;
       color:#fff;
@@ -28,9 +30,9 @@
 
 .menu-paginas{
   text-align: center;
-  padding:10px 0px;
+  padding:0px 0px;
   a{
-    color:#C8C8C8;
+    color:#fff;
     font-size: 0.9em;
     padding:0px 5px;
     &:hover{
@@ -40,11 +42,23 @@
 }
 
 .logo{
-  background:url("../assets/img/avatar.png");
-  width:150px;
-  height:150px;
+  background:url("../assets/img/avatar_01.png");
+  width:120px;
+  height:120px;
   border-radius:100%;
   margin:auto;
+}
+
+.site-header.post{
+    padding:0px;
+    .site-title{
+      padding-top:8px;
+      font-size: 1.2em;
+    }
+    .menu-paginas{
+      padding: 0 0 10px 0;
+    }
+
 }
 
 /**
@@ -57,9 +71,20 @@
 .post-list {
     margin-left: 0;
     list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
+    li {
+      margin-bottom: $spacing-unit;
+      border-bottom: solid 1px #ddd;
+      padding:0 10px 5px 10px;
+      &:hover{
+        border-bottom: solid 1px #eee;
+      }
+    }
+    a{
+      text-decoration: none;
+      color:$text-color;
+      &:hover{
+        color: lighten($text-color, 15%)
+      }
     }
 }
 
@@ -70,17 +95,11 @@
 }
 
 .post-title {
-  a{
     font-family: "Lato","Helvetica",Helvetica,Arial,sans-serif;
-    font-size: 1.8em;
+    font-size:2.0em;
     font-weight: 700;
     letter-spacing: 0.03em;
-    margin-bottom: 1.25rem;
     margin-top: 2.25rem;
-    &:hover{
-        text-decoration: none;
-      }
-  }
 }
 
 
@@ -104,7 +123,7 @@
 .post-content {
     margin-bottom: $spacing-unit;
     p{
-      font-size: 1.2em;
+      font-size: 1.3em;
       font-weight: 400;
     }
     li{
