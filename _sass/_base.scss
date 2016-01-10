@@ -128,16 +128,36 @@ h1 {
 }
 
 h2 {
-  font-size: 2.0em;
-  line-height: 1.0em;
+  font-size: 1.9em;
+  line-height: 1.3em;
   font-style: normal;
   font-weight: 300;
 }
 
 h3 {
+  font-size: 1.5em;
+  line-height: 1.9em;
+  font-weight: 300;
+}
+
+h4 {
   font-size: 1.4em;
   line-height: 1.8em;
   font-weight: 300;
+  color:lighten($text-color, 20);
+}
+
+
+h5 {
+  font-size: 1em;
+  line-height: 1.8em;
+  font-weight: 300;
+}
+
+h6{
+  text-align: center;
+  line-height: 2.5em;
+   font-size: 1em;
 }
 
 
@@ -209,6 +229,7 @@ pre {
  * Wrapper
  */
 .wrapper {
+    margin-top: 90px;
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     padding-right: $spacing-unit;
@@ -219,6 +240,11 @@ pre {
     @extend %clearfix;
 }
 
+a[name] {
+  padding-top: 100px;
+  margin-top: -100px;
+  display: inline-block; /* required for webkit browsers */
+}
 
 /**
  * Clearfix

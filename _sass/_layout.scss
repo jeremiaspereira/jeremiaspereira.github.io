@@ -3,65 +3,99 @@
  */
 .site-header {
     width:100%;
-    padding:30px 0 0px 0;
     background:$background-header;
-
+    border-bottom: solid 1px #ddd;
+    padding: 25px 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1000;
 }
 
-.site-title {
-    text-align: center;
-    font-family: "Lato","Helvetica",Helvetica,Arial,sans-serif;
-    letter-spacing: 0.08em  ;
-    padding-top:10px;
-    text-transform: uppercase;
-    a{
-      font-size: 1.2em;
-      color:#fff;
-      &:hover{
-        text-decoration: none;
-      }
-    }
+.conteudo-header{
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  margin-left:auto;
+  margin-right: auto;
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
+  @extend %clearfix;
+}
+
+
+.site-title {
+  float: left;
+  font-family: "Lato","Helvetica",Helvetica,Arial,sans-serif;
+  letter-spacing: 0.08em  ;
+  text-transform: uppercase;
+  a{
+    font-size: 1.2em;
+    color:#000;
+    &:hover{
+      text-decoration: none;
     }
+  }
+  &,
+  &:visited {
+      color: $grey-color-dark;
+  }
 }
 
 .menu-paginas{
-  text-align: center;
-  margin-top: 10px;
-  background: darken($background-header, 2%);
-  padding: 7px;
+  float: right;
   a{
-    color:#fff;
-    font-size: 0.9em;
-    padding: 8px 5px;
+    font-weight: 400;
+    color:#000;
+    font-size: 1em;
+    padding: 29px 10px;
     &:hover{
       text-decoration: none;
-      background: darken($background-header, 5%);
+      border-bottom: solid 1px darken($background-header, 20%);
     }
   }
 }
 
-.logo{
-  background:url("../assets/img/avatar_01.png");
-  width:120px;
-  height:120px;
-  border-radius:100%;
-  margin:auto;
+.active-menu{
+  background: $active-menu;
+  border-bottom: solid 1px $active-menu;
+  &:hover{
+     background:darken($background-header, 5%);
+  }
 }
 
-.site-header.post{
-    padding:0px;
-    .site-title{
-      padding-top:8px;
-      font-size: 1.2em;
-    }
-    .menu-paginas{
-      padding: 0 0 10px 0;
-    }
+.divisoria-menu{
+  color:#000;
+  padding: 0 2px;
+}
 
+@media (max-width: 510px){
+  .site-title{
+    float: none;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .menu-paginas{
+    float: none;
+    text-align: center;
+
+    a{
+      padding: 2px 10px;
+      &:hover{
+        border-bottom: none;
+         background:darken($background-header, 5%);
+      }
+    }
+  }
+
+  .active-menu{
+    border-bottom: none;
+  }
+
+  .wrapper {
+    margin-top: 120px;
+  }
 }
 
 /**

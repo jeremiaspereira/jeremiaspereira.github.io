@@ -1,6 +1,6 @@
 <footer class="site-footer">
 
-<div class="social">
+  <div class="social">
     <div class="content">
       <a href="https://plus.google.com/u/0/+JeremiasPereira/about" target="_brank" title="Google +"> <i class="fa fa-google-plus"></i></a>
       <a href="https://twitter.com/jeremiastpe" target="_brank" title="Twitter"><i class="fa fa-twitter"></i></a>
@@ -21,4 +21,19 @@
     ga('create', 'UA-55162542-1', 'auto');
     ga('send', 'pageview');
   </script>
+
+  <script type="text/javascript">
+
+    var url = window.location.pathname;
+    if(url == "/tags/"){
+      document.getElementById("menu-tag").className = "active-menu";
+    } else if(url == "/sobre/"){
+      document.getElementById("menu-sobre").className = "active-menu";
+    } else if(url == "/portfolio"){
+      document.getElementById("menu-portifolio").className = "active-menu";
+    }
+  </script>
+
+
+
 </footer>

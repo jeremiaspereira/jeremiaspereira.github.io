@@ -1,20 +1,21 @@
 <header class="site-header">
-    <a  href="{{ site.baseurl }}/">
-      <div class="logo"></div>
-    </a>
 
+  <div class="conteudo-header">
     <div class="site-title">
       <a  href="{{ site.baseurl }}/">{{ site.title }}</a>
     </div>
 
     <div class="menu-paginas">
-      <a  href="{{ site.baseurl }}/sobre"> SOBRE</a>
-      <a href="{{ site.baseurl }}/portfolio/"> PORTFÓLIO</a>
-      <a href="{{ site.baseurl }}/tags/"> TAGS</a>
+      <a  href="{{ site.baseurl }}/sobre" id="menu-sobre"> SOBRE</a>
+      <span class='divisoria-menu'>/</span>
+      <a href="{{ site.baseurl }}/portfolio" id="menu-portifolio"> PORTFÓLIO</a>
+      <span class='divisoria-menu'>/</span>
+      <a href="{{ site.baseurl }}/tags" id="menu-tag"> TAGS</a>
       <!--{% for page in site.pages %}
         {% if page.title %}
         <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         {% endif %}
       {% endfor %}-->
     </div>
+  </div>
 </header>
