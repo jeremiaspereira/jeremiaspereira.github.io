@@ -5,7 +5,7 @@ comments: true
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">
+    <div class="post-meta">
     {% assign m = page.date | date: "%-m" %}
     {{ page.date | date: "%-d" }}
     {% case m %}
@@ -30,7 +30,7 @@ comments: true
 
     {% if page.meta %}
       • {{ page.meta }}
-    {% endif %}</p>
+    {% endif %}</div>
   </header>
 
   <article class="post-content">

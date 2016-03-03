@@ -35,14 +35,21 @@
 
 
     var items = [
-      '"You have power over your mind, not outside events. Realize this, and you will find strength." __ Marcus Aurelius',
-      '"You take your life in your own hands, and what happens? A terrible thing, no one to blame." __ Erica Jong',
-      '"I can accept failure. Everyone fails at something. But I can’t accept not trying." __ Michael Jordan',
-      '"Dream big dreams. Small dreams have no magic." __ Dottie Boreyko',
+      "You have power over your mind, not outside events. Realize this, and you will find strength. __ Marcus Aurelius",
+      "You take your life in your own hands, and what happens? A terrible thing, no one to blame. __ Erica Jong",
+      "I can accept failure. Everyone fails at something. But I can’t accept not trying. __ Michael Jordan",
+      "Dream big dreams. Small dreams have no magic. __ Dottie Boreyko",
+      "Be kind; everyone you meet is fighting a hard battle. __ Ian Maclaren",
+      "Be the type of person you want to meet. __ Unknown",
+      "Don't judge each day by the harvest you reap but by the seeds that you plant. __ Robert Louis Stevenson",
+      "The journey of a thousand miles begins with a single step. __ Lao Tzu",
+      "The cave you fear to enter holds the treasure that you seek. __ Joseph Campbell"
     ];
 
     var e = document.getElementById("motivation");
-    e.innerHTML = items[Math.floor(Math.random()*items.length)];
+    var item = items[Math.floor(Math.random()*items.length)];
+    var p = item.split("__");
+    e.innerHTML = '<i class="fa fa-quote-left"></i> '+ p[0] + "<br/>" +"<I>" + p[1] + "</i>";
 
     document.getElementById("icon-motivation").addEventListener("mouseenter", function(){
         e.style.display = "block";

@@ -84,6 +84,14 @@
   color: #616060;
   background: #fff;
   max-width:500px;
+
+  .fa{
+    color: #7e7e7e;
+    font-size: 0.8em;
+    margin-left: -15px;
+    margin-top: 4px;
+    position: absolute;
+  }
 }
 
 @media (max-width: 510px){
@@ -120,7 +128,7 @@
   }
 
   #motivation{
-    left: 5px;
+    left: 15px;
     right:5px;
     top:80px;
   }
@@ -191,6 +199,7 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    margin-top: $spacing-unit;
     p{
       font-size: 1.3em;
       font-weight: 400;
@@ -346,4 +355,11 @@
   margin-right:auto;
   border-radius:100%;
   margin-bottom:18px;
+}
+
+
+.img-center{
+  display:block !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
 }
