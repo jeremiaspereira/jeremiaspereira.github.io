@@ -13,4 +13,4 @@ Recentemente precisei fazer no trampo uma mudança no código para calcular auto
 A ideia é obter a diferença entre essa duas horas e mostrar na tela ou em um input, a principio é fácil mais rendeu umas linhas de código.
 
 
-<iframe width="100%" height="500" src="//jsfiddle.net/JeremiasPereira/2zooce3k/6/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="500" src="//jsfiddle.net/jeremias_pereira/2zooce3k/6/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
