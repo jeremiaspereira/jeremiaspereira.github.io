@@ -22,11 +22,11 @@ Meus 12 livros estão listados a seguir, a cada livro lido falarei sobre ele em 
 
 <i class="fa fa-check-square-o"></i> [Fahrenheit 451 - Ray Bradbury (1953)](/2016/02/29/12-meses-12-livros-fevereiro.html)
 
-<i class="fa fa-square-o"></i> 1984 – George Orwell (1949)
+<i class="fa fa-check-square-o"></i> [1984 – George Orwell (1949)](/2016/03/28/12-meses-12-livros-marco.html)
 
 <i class="fa fa-square-o"></i> Guia do Mochileiro das Galáxias - Douglas Adams (1979)
 
-<i class="fa fa-square-o"></i> Andróides Sonham com Ovelhas Elétricas? – Philip K. Dick (1968)
+<i class="fa fa-square-o"></i>  As crônicas marcianas – Ray Bradburyem (1980)
 
 <i class="fa fa-square-o"></i> Vinte Mil Léguas Submarinas – Julio Verne (1870)
 
