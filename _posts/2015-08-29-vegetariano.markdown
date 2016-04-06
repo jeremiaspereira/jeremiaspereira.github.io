@@ -3,7 +3,8 @@ layout: post
 title:  "Vegetariano"
 date:   2015-08-29 11:48:17
 description: "Um pouco sobre porque me tornei vegetariano."
-tag: Estilo de vida
+tag: 
+    - Alimentação
 ---
 
 Ser vegetariano não significa somente se alimentar de alface, é uma escolha sensata, um refletir sobre a vida, sobre nós e os animais. Poucos tem coragem de refletir sobre o fato de deixar de comer carne, assim inventam desculpas, porém se você tiver coragem para refletir sobre o fato da necessidade de um animal viver uma vida de sofrimento e morrer para nos servir de alimento, deixar de lado o que as pessoas vão pensar e falar sobre o fato de você decidir se tornar um vegetariano, então terá dado o primeiro passo.
