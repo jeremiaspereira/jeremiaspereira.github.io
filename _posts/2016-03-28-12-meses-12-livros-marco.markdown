@@ -4,7 +4,6 @@ title:  "12 meses 12 livros :: Março"
 date:   2016-03-28 22:00:00
 description: "Desafio 12 meses 12 livros, livro de Março: 1984"
 tag: 
-    - Livros
     - 12 meses 12 livros
     - Março
 ---

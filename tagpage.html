@@ -10,14 +10,14 @@ permalink: /tags/
   <ul>
     {% if tags_list.first[0] == null %}
       {% for tag in tags_list %}
-        <li>
+        <li class="tags">
           <a href="/tags#{{ tag | slugify }}-ref" class='list-group-item'>{{ tag | capitalize }}</a>
           <span class="badge-quantidade">{{ site.tags[tag].size }}</span>
         </li>
       {% endfor %}
     {% else %}
       {% for tag in tags_list %}
-        <li>
+        <li class="tags" style="list-style: none;">
           <a href="/tags#{{ tag[0] | slugify }}-ref" class='list-group-item'>{{ tag[0] | capitalize }}</a>
           <span class='badge-quantidade'>{{ tag[1].size }}</span>
         </li>

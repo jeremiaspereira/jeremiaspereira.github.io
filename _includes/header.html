@@ -4,21 +4,47 @@
       <a  href="{{ site.baseurl }}/">{{ site.title }}</a>
     </div>
 
-    <div class="menu-paginas">
-      <a  href="{{ site.baseurl }}/sobre" id="menu-sobre"> sobre</a>
-      <span class='divisoria-menu'>/</span>
-      <a href="{{ site.baseurl }}/portfolio" id="menu-portifolio"> portifólio</a>
-      <span class='divisoria-menu'>/</span>
-      <a href="{{ site.baseurl }}/tags" id="menu-tag"> tags</a>
-      <!--{% for page in site.pages %}
-        {% if page.title %}
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}
-      {% endfor %}-->
-    </div>
-  </div>
-  <div id="icon-motivation"><i class="fa fa-bolt"></i>
+    <div class="links-header">
+      <ul class="social-header">
+        <li>
+            <a href="https://plus.google.com/u/0/+JeremiasPereira/about" target="_brank" title="Google +" class="s-1">
+            <i class="fa fa-google-plus"></i>
+          </a>
+        </li>
 
+        <li>
+          <a href="https://twitter.com/jeremiastpe" target="_brank" title="Twitter" class="s-2">
+           <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.flickr.com/photos/jeremiaspereira" target="_brank" title="Flickr" class="s-3">
+            <i class="fa fa-flickr"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://instagram.com/jeremias_pereira/" target="_brank" title="Instagram" class="s-4">
+           <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a id="icon-motivation" href="javascript:void(0);" title="Motivation" class="s-5">
+            <i class="fa fa-bolt"></i>
+          </a>
+        </li>
+    </ul>
+
+    <ul class="menu-paginas">
+      <li>
+        <a  href="{{ site.baseurl }}/sobre" id="menu-sobre"> sobre</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/tags" id="menu-tag"> tags</a>
+      </li>
+    </ul>
+  </div>
 </div>
-  <div id="motivation"></div>
+<div id="motivation"></div>
 </header>
