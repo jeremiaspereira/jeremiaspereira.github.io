@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "12 meses 12 livros :: Abril"
-date:   2016-04-30 22:00:00
+title: "12 meses 12 livros :: Abril"
+cover: 12-meses-12-livros-abril.png
+date: 2016-04-30 22:00:00
 description: "Desafio 12 meses 12 livros, livro de Abril: As crônicas marcianas.f"
 tag: 
     - 12 meses 12 livros
     - Abril
 ---
 
-#### [As crônicas marcianas – Ray Bradbury (1960)](http://www.livrariacultura.com.br/p/cronicas-marcianas-17739340){:target="_blank"} 
+### [As crônicas marcianas – Ray Bradbury (1960)](http://www.livrariacultura.com.br/p/cronicas-marcianas-17739340){:target="_blank"} 
 
 As "Crônicas Marcianas" é o livro de abril do desafio [12 meses 12 livros](/2016/01/07/12-meses-12-livros.html).
 

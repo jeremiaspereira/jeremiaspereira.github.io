@@ -2,6 +2,7 @@
 layout: post
 title:  "Alimentos germinados"
 date:   2016-04-05 22:00:00
+cover: alimentos-germinados.png
 description: "Fazendo seu germinado"
 tag: 
     - Alimentação

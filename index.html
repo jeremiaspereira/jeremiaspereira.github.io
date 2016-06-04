@@ -2,14 +2,13 @@
 layout: default
 ---
 
+
 <div class="home">
   <ul class="post-list">
     {% for post in site.posts %}
         <li>
           <a href="{{ post.url | prepend: site.baseurl }}">
-            <div class="post-title">
-             {{ post.title }}
-            </div>
+            <div class="post-title">{{ post.title }} </div>
             <div class="post-meta">
               {% assign m = post.date | date: "%-m" %}
               {{ post.date | date: "%-d" }}
@@ -29,6 +28,7 @@ layout: default
               {% endcase %}
               {{ post.date | date: "%Y" }}
             </div>
+             <img src="/cover-post/{{ post.cover }}">
             <p class="description">
               {{ post.content | strip_html | truncatewords:40 }}
             </p>

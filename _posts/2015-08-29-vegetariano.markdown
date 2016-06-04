@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Vegetariano"
+cover: vegetariano.png
 date:   2015-08-29 11:48:17
 description: "Um pouco sobre porque me tornei vegetariano."
 tag: 

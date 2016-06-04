@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "12 meses 12 livros :: Fevereiro"
-date:   2016-02-29 22:00:00
+cover: 12-meses-12-livros-fevereiro.png
+date:  2016-02-29 22:00:00
 description: "Desafio 12 meses 12 livros, livro de Fevereiro: Fahrenheit 451 "
 tag: 
     - 12 meses 12 livros

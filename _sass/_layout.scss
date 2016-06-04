@@ -193,6 +193,7 @@
     font-size: $small-font-size;
     color: $grey-color;
     margin-bottom: 5px;
+    font-size: 1.1em;
 }
 
 .post-title {
@@ -341,19 +342,40 @@
       border-bottom: solid 2px #EF4F24;
     }
   }
-
-  // social share post
-  .share-page {
-      text-align: center;
-      margin: 1.5 * $spacing-unit 0;
-
-      a {
-          font-size: 1.1em;
-          font-weight: 700;
-          margin-left: 15px;
-        }
-  }
 }
+
+// social share post
+  .share-page{
+    ul {
+      display: flex;
+      text-align: center;
+      height: inherit;
+      flex-wrap: wrap;
+      margin: 10px 0;
+    }
+
+    li {
+      flex: 1;
+      list-style: none;
+    }
+
+    li:hover{
+      opacity: 0.8;
+    }
+
+    a{
+      display: block;
+      padding:5px;
+      color:#fff;
+      font-size:1.2em;
+      width: 100%;
+    }
+
+    #sp-1{background: $twitter;}
+    #sp-2{background: $facebook;}
+    #sp-3{background: $google-plus;}
+  }
+
 // tag list
 
 .tag-list{

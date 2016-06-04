@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Five Minute Journal"
-date:   2016-02-27 22:00:00
+cover: five-minute-journal.png
+date:  2016-02-27 22:00:00
 description: "Criando um bom habito, Five Minute Journal"
 tag: 
     - Hábitos

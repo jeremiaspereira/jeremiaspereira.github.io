@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "12 meses 12 livros"
+cover:  12-meses-12-livros.png
 date:   2016-01-07 22:00:00
 description: "Todo mundo faz metas para o próximo ano, que tal escolher 12 livros, um para cada mês? Te desafio!"
 tag: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "12 meses 12 livros :: Janeiro"
+cover: 12-meses-12-livros-janeiro.png
 date:   2016-01-31 22:00:00
 description: "Desafio 12 meses 12 livros, livro de Janeiro: O senhor das moscas"
 tag: 

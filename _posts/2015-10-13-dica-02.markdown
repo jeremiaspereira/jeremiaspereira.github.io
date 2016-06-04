@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Dica #02 :: Evernote"
-date:   2015-10-13 22:48:17
+date:  2015-10-13 22:48:17
+cover: evernote.png
 description: "Dicas para o seu dia-a-dia"
 tag: Dicas
 ---
@@ -11,8 +12,8 @@ Sou do tipo que sempre está fazendo anotações e quero ter acesso em  qualquer
 Além de anotações da para fazer lista de tarefas, criar lembretes com alarme, salvar imagens, PDF e várias coisas mais, dependendo da opção que usa, há três opções:
 
 * Basic - Grátis;
-* Plus - R$ 40,00 por ano;
-* Premium - R$ 80 por ano.
+* Plus - Paga;
+* Premium - Paga.
 
 Você pode começar pelo Basic e ver se gosta e depois quem sabe pagar por uma licença, com essa versão você tem 60MB de espaço, porém você precisa sempre de internet para acessar suas notas, já nas demais opções é possível baixar as notas para seu dispositivo.
 
@@ -25,13 +26,13 @@ Possui aplicativo para IOS, Android e Windows Phone (Isso mesmo ...) e pode ser 
 ### Saiba +
 
 
-#### [<i class="fa fa-external-link"></i> Medium](https://medium.com/@evernote_brasil){:target="_blank"}
+##### [<i class="fa fa-external-link"></i> Medium](https://medium.com/@evernote_brasil){:target="_blank"}
 
-#### [<i class="fa fa-external-link"></i> LinguaLeo](https://blog.evernote.com/ptbr/2014/09/25/caderno-especial-evernote-auxilia-voce-estudo-ingles/){:target="_blank"}
+##### [<i class="fa fa-external-link"></i> LinguaLeo](https://blog.evernote.com/ptbr/2014/09/25/caderno-especial-evernote-auxilia-voce-estudo-ingles/){:target="_blank"}
 
-#### [<i class="fa fa-external-link"></i> Blog](https://blog.evernote.com/ptbr/){:target="_blank"}
+##### [<i class="fa fa-external-link"></i> Blog](https://blog.evernote.com/ptbr/){:target="_blank"}
 
-#### [<i class="fa fa-external-link"></i> Twitter](https://twitter.com/evernote){:target="_blank"}
+##### [<i class="fa fa-external-link"></i> Twitter](https://twitter.com/evernote){:target="_blank"}
 
 Até a próxima. (:
 
