@@ -17,7 +17,6 @@ Para dar uma mãozinha na hora de escolher, você pode dar uma lida nesse [artig
 
 Meus 12 livros estão listados a seguir, a cada livro lido falarei sobre ele em um novo post, a ordem que estão os livros não será seguida provavelmente, a ideia é pagar o menos possível por cada livro assim da para garimpar em sebos ou pegar em promoções pela internet.
 
-
 <i class="fa fa-check-square-o"></i> [Senhor Das Moscas - William Golding (1954)](/2016/01/31/12-meses-12-livros-janeiro.html)
 
 <i class="fa fa-check-square-o"></i> [Fahrenheit 451 - Ray Bradbury (1953)](/2016/02/29/12-meses-12-livros-fevereiro.html)
@@ -26,8 +25,9 @@ Meus 12 livros estão listados a seguir, a cada livro lido falarei sobre ele em 
 
 <i class="fa fa-check-square-o"></i>  [As crônicas marcianas – Ray Bradbury (1960)](/2016/04/30/12-meses-12-livros-abril.html)
 
-<i class="fa fa-square-o"></i> Guia do Mochileiro das Galáxias - Douglas Adams (1979)
+<i class="fa fa-check-square-o"></i> [O Sol É Para Todos - Harper Lee (1960)]()
 
+<i class="fa fa-square-o"></i> Guia do Mochileiro das Galáxias - Douglas Adams (1979)
 
 <i class="fa fa-square-o"></i> Vinte Mil Léguas Submarinas – Julio Verne (1870)
 
@@ -41,7 +41,6 @@ Meus 12 livros estão listados a seguir, a cada livro lido falarei sobre ele em 
 
 <i class="fa fa-square-o"></i> Laranja Mecânica - Anthony Burgess (1962)
 
-<i class="fa fa-square-o"></i> O Sol É Para Todos - Harper Lee (2011)
 
 
 

@@ -147,7 +147,7 @@ h3 {
 h4 {
   font-size: 1.4em;
   line-height: 1.8em;
-  font-weight: 300;
+  font-weight: 600;
   color:lighten($text-color, 20);
 }
 
@@ -275,6 +275,12 @@ a[name] {
     }
 }
 
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 
 /**
@@ -299,4 +305,35 @@ a[name] {
 }
 
 
+* {
 
+}
+
+/*************************************************************
+// Grids
+**************************************************************/
+$grid-gutter: .5%;
+$grid-columns: 12;
+$grid-max: $max-width;
+
+[class*="grid-"] {
+  float: left;
+  padding: $grid-gutter;
+  position: relative;
+  -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+@for $i from 1 through $grid-columns{
+  .grid-#{$i} {
+    width: 100% / $grid-columns * $i;
+  }
+}
+
+
+@media (max-width: $screen-sm-max){
+  [class*="grid-"] {
+    width: 100%;
+  }
+}

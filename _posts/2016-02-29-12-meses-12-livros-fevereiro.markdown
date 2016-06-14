@@ -9,7 +9,6 @@ tag:
     - Fevereiro
 ---
 
-
 #### [Fahrenheit 451 - Ray Bradbury (1953)](http://www.saraiva.com.br/fahrenheit-451-nova-ortografia-4087766.html){:target="_blank"} 
 
 O livro "Fahrenheit 451" foi o livro do mês de Fevereiro do desafio [12 meses 12 livros](/2016/01/07/12-meses-12-livros.html).

@@ -2,33 +2,32 @@
 layout: default
 ---
 
-
 <div class="home">
   <ul class="post-list">
     {% for post in site.posts %}
         <li>
           <a href="{{ post.url | prepend: site.baseurl }}">
             <div class="post-title">{{ post.title }} </div>
+            <img src="/cover-post/{{ post.cover }}">
             <div class="post-meta">
               {% assign m = post.date | date: "%-m" %}
               {{ post.date | date: "%-d" }}
               {% case m %}
-                {% when '1' %}Janeiro
-                {% when '2' %}Fevereiro
-                {% when '3' %}Março
-                {% when '4' %}Abril
-                {% when '5' %}Maio
-                {% when '6' %}Junho
-                {% when '7' %}Julho
-                {% when '8' %}Agosto
-                {% when '9' %}Setembro
-                {% when '10' %}Outubro
-                {% when '11' %}Novembro
-                {% when '12' %}Dezembro
+                {% when '1' %}Jan
+                {% when '2' %}Fev
+                {% when '3' %}Mar
+                {% when '4' %}Abr
+                {% when '5' %}Mai
+                {% when '6' %}Jun
+                {% when '7' %}Jul
+                {% when '8' %}Ago
+                {% when '9' %}Set
+                {% when '10' %}Out
+                {% when '11' %}Nov
+                {% when '12' %}Dez
               {% endcase %}
               {{ post.date | date: "%Y" }}
             </div>
-             <img src="/cover-post/{{ post.cover }}">
             <p class="description">
               {{ post.content | strip_html | truncatewords:40 }}
             </p>
