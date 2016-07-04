@@ -8,7 +8,7 @@ layout: default
         <li>
           <a href="{{ post.url | prepend: site.baseurl }}">
             <div class="post-title">{{ post.title }} </div>
-            <img src="/cover-post/{{ post.cover }}">
+            <img class ='img-cover' src="/cover-post/{{ post.cover }}">
             <div class="post-meta">
               {% assign m = post.date | date: "%-m" %}
               {{ post.date | date: "%-d" }}
