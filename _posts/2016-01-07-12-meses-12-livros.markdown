@@ -25,7 +25,9 @@ Meus 12 livros estão listados a seguir, a cada livro lido falarei sobre ele em 
 
 <i class="fa fa-check-square-o"></i>  [As crônicas marcianas – Ray Bradbury (1960)](/2016/04/30/12-meses-12-livros-abril.html)
 
-<i class="fa fa-check-square-o"></i> [O Sol É Para Todos - Harper Lee (1960)]()
+<i class="fa fa-check-square-o"></i> [O Sol É Para Todos - Harper Lee (1960)](/2016/05/30/12-meses-12-livros-maio.html)
+
+<i class="fa fa-check-square-o"></i> [*Guerra dos mundos – WELLS, H. G. (1898)](/2016/06/30/12-meses-12-livros-junho.html)
 
 <i class="fa fa-square-o"></i> Guia do Mochileiro das Galáxias - Douglas Adams (1979)
 
