@@ -4,34 +4,41 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
 @font-face {
   font-family: "Raleway";
-  src: url(../assets/fonts/raleway/Raleway-Regular.ttf);
+  src: url(../fonts/raleway/Raleway-Regular.ttf);
   font-weight: normal;
 }
 @font-face {
   font-family: "Raleway";
-  src: url(../assets/fonts/raleway/Raleway-Light.ttf);
+  src: url(../fonts/raleway/Raleway-Light.ttf);
   font-weight: 300;
 }
 @font-face {
   font-family: "Raleway";
-  src: url(../assets/fonts/raleway/Raleway-Medium.ttf);
+  src: url(../fonts/raleway/Raleway-Medium.ttf);
   font-weight: 500;
 }
 @font-face {
   font-family: "Raleway";
-  src: url(../assets/fonts/raleway/Raleway-SemiBold.ttf);
+  src: url(../fonts/raleway/Raleway-SemiBold.ttf);
   font-weight: 600;
 }
+
 @font-face {
   font-family: "Raleway";
-  src: url(../assets/fonts/raleway/Raleway-Bold.ttf);
+  src: url(../fonts/raleway/Raleway-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url(../fonts/Comfortaa/Comfortaa_Regular.ttf);
   font-weight: bold;
 }
 
@@ -40,19 +47,17 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: 300;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
-}
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: 300;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
 
-html {
-  font-size: 58%;
-  @media (min-width: $screen-xs-max){ font-size: 60%; }
-  @media (min-width: $screen-sm-max){ font-size: 62.5%; }
+  @media (max-width: $screen-xs-max) {
+      font-size: 16px;
+  }
 }
 
 
@@ -66,10 +71,7 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-p{
-  padding-top:15px;
-}
-
+p{  padding-top:0px; }
 
 
 /**
@@ -81,34 +83,17 @@ img {
 }
 
 
-
-/**
- * Figures
- */
-figure > img {
-    display: block;
-}
-
-figcaption {
-    font-size: $small-font-size;
-}
-
-
-
 /**
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
+    margin:0;
 }
 
 li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
+  list-style: none;
+   margin: 0;
 }
-
 
 /**
  * Headings
@@ -120,50 +105,23 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', 'Open Sans';
   font-weight: normal;
 }
 
-h1 {
-  font-size: 2.5em;
-  line-height: 1em;
-  font-style: normal;
-  font-weight: 300;
+ h1 {
+    font-size: 1.6em;
 }
 
-h2 {
-  font-size: 1.9em;
-  line-height: 1.3em;
-  font-style: normal;
-  font-weight: 300;
+ h2 {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: $spacing-unit / 2;
 }
 
-h3 {
-  font-size: 1.5em;
-  line-height: 1.9em;
-  font-weight: 300;
+h3{
+  font-size: 1.0em;
 }
-
-h4 {
-  font-size: 1.4em;
-  line-height: 1.8em;
-  font-weight: 600;
-  color:lighten($text-color, 20);
-}
-
-
-h5 {
-  font-size: 1em;
-  line-height: 1.8em;
-  font-weight: 300;
-}
-
-h6{
-  text-align: center;
-  line-height: 2.5em;
-   font-size: 1em;
-}
-
 
 /**
  * Links
@@ -183,90 +141,17 @@ a {
 }
 
 
-
-/**
- * Blockquotes
- */
-blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 14px;
-    letter-spacing: 0px;
-    font-style: italic;
-    margin: 20px 0px;
-
-    > :last-child {
-        margin-bottom: 0;
-    }
-
-    > p{
-      padding-top: 0;
-    }
-}
-
 hr{
-  margin:25px 0;
-  border: 0;
-  height: 1px;
-  background: #ddd;
-
-}
-
-
-
-/**
- * Code formatting
- */
-pre,
-code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
-}
-
-code {
-    padding: 1px 5px;
-}
-
-pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-
-
-/**
- * Wrapper
- */
-.wrapper {
-    margin-top: 90px;
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    margin-left:auto;
-    margin-right: auto;
-
-    @extend %clearfix;
-}
-
-a[name] {
-  padding-top: 100px;
-  margin-top: -100px;
-  display: inline-block; /* required for webkit browsers */
+ margin:20px 0px 10px 0;
+ border: 0;
+  border-bottom: double medium #D8D7D7;
+  background: #FFFFFF;
 }
 
 /**
  * Clearfix
  */
-%clearfix {
+.clearfix {
 
     &:after {
         content: "";
@@ -275,65 +160,57 @@ a[name] {
     }
 }
 
-.clearfix{
-  content: "";
-  display: table;
-  clear: both;
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
 }
 
-
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
-    }
+.text-center{
+  text-align: center;
 }
 
-.f-19{
-  font-size: 19px !important;
-}
-
-
-* {
-
-}
 
 /*************************************************************
 // Grids
 **************************************************************/
-$grid-gutter: .5%;
+
+
+* {
+    box-sizing: border-box;
+}
+
+$grid-gutter: 1%;
 $grid-columns: 12;
-$grid-max: $max-width;
+$grid-max: $content-width;
+
 
 [class*="grid-"] {
   float: left;
-  padding: $grid-gutter;
-  position: relative;
-  -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+  padding: 0 $grid-gutter;
 }
 
 @for $i from 1 through $grid-columns{
-  .grid-#{$i} {
+  .grid-md-#{$i} {
     width: 100% / $grid-columns * $i;
   }
 }
 
+ @media (max-width: $screen-sm-max) {
+  @for $i from 1 through $grid-columns{
+    .grid-sm-#{$i} {
+      width: 100% / $grid-columns * $i;
+    }
+}
+}
 
-@media (max-width: $screen-sm-max){
-  [class*="grid-"] {
-    width: 100%;
-  }
+.img-responsive{
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.img-instagram{
+ padding: 5px 0;
 }

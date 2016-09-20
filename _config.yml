@@ -1,9 +1,9 @@
 # Site settings
-title: Jeremias Pereira
-email: jeremiaspereira@gmail.com
-description: ># Olá meu nome é Jeremias Pereira e esse é meu blog feito com Jekyll e hospedado no Git Pages, sou Analista de sistemas e desenvolvedor Front end.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://jeremiaspereira.net/" # the base hostname & protocol for your site
+title: jeremiaspereira.net
+email: jeremiastpererira@gmail.com
+description: 'Front end'
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://www.jeremiaspereira.net/" # the base hostname & protocol for your site
 twitter_username: jeremiastpe
 github_username:  jeremiaspereira
 

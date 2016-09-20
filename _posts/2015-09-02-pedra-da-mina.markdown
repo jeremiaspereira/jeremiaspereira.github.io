@@ -31,7 +31,7 @@ Ver o dia amanhecer no alto de uma montanha não tem preço, a energia que aquil
 
 Se me perguntarem se valeu a pena digo que sim e que quero voltar, a Serra da Mantiqueira é mágica, ela te acolhe e você se apaixona e quer sempre estar lá.
 
-### <i class="fa fa-map-signs"></i> Dicas
+## <i class="fa fa-map-signs"></i> Dicas
 
 * Leve um travesseiro inflável.
 * Leve banana desidratada, não amassa e te da energia.
@@ -51,7 +51,7 @@ Se me perguntarem se valeu a pena digo que sim e que quero voltar, a Serra da Ma
 * Tenha uma jaqueta quebra vento.
 * Há meias próprias para esse tipo de caminhadas.
 
-### <i class="fa fa-camera-retro"></i> Fotos
+## <i class="fa fa-camera-retro"></i> Fotos
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/jeremiaspereira/18942246988/in/dateposted-public/" title="Pedra da Mina - 2012"><img class="img-center img-responsive" src="https://farm1.staticflickr.com/522/18942246988_fd63a2dd72_c.jpg"  alt="Pedra da Mina - 2012"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 

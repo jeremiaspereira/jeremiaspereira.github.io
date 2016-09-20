@@ -1,8 +1,47 @@
 
-var items = [
-  "You have power over your mind, not outside events. Realize this, and you will find strength. __ Marcus Aurelius",
-  "You take your life in your own hands, and what happens? A terrible thing, no one to blame. __ Erica Jong",
-];
+fixImgHeight();
+
+function fixImgHeight(){
+  var postHeader = document.querySelector('.img-header');
+  var height = document.documentElement.clientHeight;
+
+  if(postHeader){
+    postHeader.style.height = height + 'px';
+  }
 
 
-document.getElementById("motivation").innerHTML = items[Math.floor(Math.random()*items.length)];
+  var triangle = document.querySelector('.triangle');
+  triangle.style.marginTop =  (height-80)+'px';
+}
+
+var header=document.querySelector('.site-header')
+
+headroom= new Headroom(header,{
+  offset:0,
+  tolerance : {
+    up : 5,
+    down : 10
+  },
+  classes:{
+    initial:"animated",
+    pinned:"slideDown",
+    unpinned:"slideUp",
+    top:"top",
+    notTop:"notTop",
+    bottom:"bottom",
+    notBottom:"notBottom"
+  }
+});
+
+headroom.init();
+
+// Active menu
+
+var url = window.location.pathname;
+if(url == "/blog/"){
+  document.getElementById("menu-blog").className = "active";
+} else if(url == "/sobre/"){
+  document.getElementById("menu-sobre").className = "active";
+} else if(url == "/trabalhos"){
+  document.getElementById("menu-trabalhos").className = "active";
+}

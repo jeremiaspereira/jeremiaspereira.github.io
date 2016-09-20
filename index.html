@@ -2,37 +2,91 @@
 layout: default
 ---
 
-<div class="home">
-  <ul class="post-list">
-    {% for post in site.posts %}
-        <li>
-          <a href="{{ post.url | prepend: site.baseurl }}">
-            <div class="post-title">{{ post.title }} </div>
-            <img class ='img-cover' src="/cover-post/{{ post.cover }}">
-            <div class="post-meta">
-              {% assign m = post.date | date: "%-m" %}
-              {{ post.date | date: "%-d" }}
-              {% case m %}
-                {% when '1' %}Jan
-                {% when '2' %}Fev
-                {% when '3' %}Mar
-                {% when '4' %}Abr
-                {% when '5' %}Mai
-                {% when '6' %}Jun
-                {% when '7' %}Jul
-                {% when '8' %}Ago
-                {% when '9' %}Set
-                {% when '10' %}Out
-                {% when '11' %}Nov
-                {% when '12' %}Dez
-              {% endcase %}
-              {{ post.date | date: "%Y" }}
-            </div>
-            <p class="description">
-              {{ post.content | strip_html | truncatewords:40 }}
-            </p>
-         </a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+<section class="img-header">
+  <div class="bg-home" style="background-image: url('/assets/img/bg-home.jpg');">
+       <a href="#home">
+        <ul class='triangle'>
+          <li class="t-0"></li>
+          <li class="t-1"></li>
+          <li class="t-2"></li>
+        </ul>
+      </a>
+  </div>
+</section>
+
+<section class="home" id="home">
+  <section class="slice-home slice-home__sobre">
+    <article class="inner-content">
+      <h1>Hey</h1>
+      <p>Aqui Jeremias Pereira</p>
+      <p>Mineiro e dev front end.</p>
+
+      <a href="{{ post.url }}sobre" class="link-sobre">
+        <ul class='diamond'>
+          <li class="d-0"></li>
+          <li class="d-1"></li>
+          <li class="d-2"></li>
+          <li class="d-3"></li>
+          <li class="d-4"></li>
+          <li class="d-5"></li>
+          <li class="d-6"></li>
+        </ul>
+      </a>
+    </article>
+  </section>
+
+  <section class="slice-home slice-home__blog">
+    <article class="inner-content">
+      <h1>Últimos artigos</h1>
+      <ul class="post-list">
+        {% for post in site.posts limit:3 %}
+          <li>
+            <a href="{{ post.url }}">
+              <div class="post-list__date">
+                {% assign m = post.date | date: "%-m" %}
+                {{ post.date | date: "%d" }}
+                {% case m %}
+                  {% when '1' %}Jan
+                  {% when '2' %}Fev
+                  {% when '3' %}Mar
+                  {% when '4' %}Abr
+                  {% when '5' %}Mai
+                  {% when '6' %}Jun
+                  {% when '7' %}Jul
+                  {% when '8' %}Ago
+                  {% when '9' %}Set
+                  {% when '10' %}Out
+                  {% when '11' %}Nov
+                  {% when '12' %}Dez
+                {% endcase %}
+                {{ post.date | date: "%Y" }}
+              </div>
+              <div class="post-list__title">
+                {{ post.title }}
+              </div>
+           </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </article>
+  </section>
+
+   <section class="slice-home slice-home__social">
+    <article class="inner-content">
+      <ul class="social-icons">
+        <li><a href="https://www.facebook.com/jeremias.pereira.mg" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://plus.google.com/u/0/+JeremiasPereira" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/jeremias_pereira/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/jeremiaspereira/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/perejere" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.flickr.com/photos/jeremiaspereira" target="_blank"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/jeremiaspereira" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="footer">
+    <p>Copyright © 2016 Jeremias Pereira. Designed by me</p>
+  </section>
+
+</section>

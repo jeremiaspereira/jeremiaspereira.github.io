@@ -1,53 +1,44 @@
-
 @charset "utf-8";
+$background-menu: #3b3b3b;
+$background-menu-active: #292929;
+$color-font-menu: #818181;
 
 
-// Our variables
 $base-font-family: 'Open Sans', sans-serif;
-$base-font-size:  14px;
-
-$small-font-size:  $base-font-size * 0.875;
+$base-font-size:  18px;
 $base-line-height: 1.5;
-
 $spacing-unit: 20px;
-
-$text-color:      #3F3F3F;
+$text-color: #3E3E3E;
 $background-color: #ffffff;
-
-$background-header:#5DBE9B;
-$active-menu: #3CB287;
-$color-header: #fff;
-
 $brand-color: #5F96DE;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$content-width: 1024px;
 
-// Width of the content area
-$content-width: 900px;
-$max-width: 900px;
-
-//------------------------------------------------------------
-// Media Queries
-//------------------------------------------------------------
-
-$screen-xs-max: 480px;// Extra small screen / phone
-$screen-sm-max: 546px;  // Small screen / tablet
-$screen-md-max: 992px;  // Medium screen / desktop
-$screen-lg-max: 1200px; // Large screen / wide desktop
-$screen-xlg-max: 1600px; // Extra Large screen / wide desktop
-$screen-xxlg-max: 1900px; // Extra Large screen / wide desktop
-
-
+$screen-xs-max: 480px;  // Celular
+$screen-sm-max: 768px;  // ipad vertical
+$screen-md-max: 1024px;  // Ipad horizontal
 
 $google-plus: #D34331;
 $twitter: #1B86BC;
 $flickr: #FF0085;
 $linkedin: #1B86BC;
-$instagram: #A5664D;
-$github: #888888;
+$instagram: #517fa4;
+$github: #000;
 $facebook: #43609C;
 
 
 
+// Mixins
+@mixin element($element) {
+  &__#{$element} {
+   @content;
+  }
+}
+
+@mixin modifier($element) {
+  &--#{$element} {
+    @content;
+  }
+}
+
+//placeholder

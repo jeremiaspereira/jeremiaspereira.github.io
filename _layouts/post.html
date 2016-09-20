@@ -1,14 +1,13 @@
 ---
-layout: default
+layout: page
 comments: true
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <img src="/cover-post/{{ page.cover }}">
-    <div class="post-meta">
+<section class="inner-content">
+  <section class="blog-post">
+    <h1>{{ page.title }}</h1>
+    <div class="blog-post__date">
       {% assign m = page.date | date: "%-m" %}
-      {{ page.date | date: "%-d" }}
+      {{ page.date | date: "%d" }}
       {% case m %}
         {% when '1' %}Jan
         {% when '2' %}Fev
@@ -29,41 +28,34 @@ comments: true
         • {{ page.meta }}
       {% endif %}
     </div>
-  </header>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+    <article class="blog-post__content">
+      {{ content }}
+    </article>
 
-  <div class="clearfix"></div>
+    <br>
 
-  <div class="share-page">
-    <ul>
-      <li id="sp-1">
-        <a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&text={{ page.title }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
-      </li>
+    <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES * * */
+          var disqus_shortname = 'jeremiaspereiranet';
 
-      <li id="sp-2">
-      <a  href="https://facebook.com/sharer.php?s=100&p[url]={{ site.url }}{{ page.url }}&p[images][0]={{ site.url }}cover-post/{{ page.cover }}&p[title]={{ page.title }}"rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
-      </li>
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </div>
+  </section>
+</section>
 
-      <li id="sp-3">
-        <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+"><i class="fa fa-google-plus"></i></a>
-      </li>
-    </ul>
-  </div>
+<section class="footer">
+  <p>Copyright © 2016 Jeremias Pereira. Designed by me</p>
+</section>
 
-  <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES * * */
-        var disqus_shortname = 'jeremiaspereiranet';
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-  </div>
+<script type="text/javascript">
+  document.getElementById("menu-blog").className = "active";
+</script>

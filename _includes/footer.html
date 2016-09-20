@@ -1,9 +1,9 @@
-<footer class="site-footer">
-  <p>Jeremias Pereira © 2016</p>
 
+<footer>
+    <script  src="{{ site.baseurl }}assets/js/headroom.min.js"></script>
+    <script  src="{{ site.baseurl }}assets/js/main.js"></script>
 
-
-  <script>
+    <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -11,48 +11,5 @@
 
     ga('create', 'UA-55162542-1', 'auto');
     ga('send', 'pageview');
-  </script>
-
-  <script type="text/javascript">
-
-    var url = window.location.pathname;
-    if(url == "/tags/"){
-      document.getElementById("menu-tag").className = "active-menu";
-    } else if(url == "/sobre/"){
-      document.getElementById("menu-sobre").className = "active-menu";
-    } else if(url == "/portfolio"){
-      document.getElementById("menu-portifolio").className = "active-menu";
-    }
-
-
-    var items = [
-      "You have power over your mind, not outside events. Realize this, and you will find strength. __ Marcus Aurelius",
-      "You take your life in your own hands, and what happens? A terrible thing, no one to blame. __ Erica Jong",
-      "I can accept failure. Everyone fails at something. But I can’t accept not trying. __ Michael Jordan",
-      "Dream big dreams. Small dreams have no magic. __ Dottie Boreyko",
-      "Be kind; everyone you meet is fighting a hard battle. __ Ian Maclaren",
-      "Be the type of person you want to meet. __ Unknown",
-      "Don't judge each day by the harvest you reap but by the seeds that you plant. __ Robert Louis Stevenson",
-      "The journey of a thousand miles begins with a single step. __ Lao Tzu",
-      "The cave you fear to enter holds the treasure that you seek. __ Joseph Campbell"
-    ];
-
-    var e = document.getElementById("motivation");
-    var item = items[Math.floor(Math.random()*items.length)];
-    var p = item.split("__");
-    e.innerHTML = '<i class="fa fa-quote-left"></i> '+ p[0] + "<br/>" +"<I>" + p[1] + "</i>";
-
-    document.getElementById("icon-motivation").addEventListener("mouseenter", function(){
-        e.style.display = "block";
-        e.style.opacity = "1";
-        e.style.transition = "opacity 0.3s linear";
-        setTimeout(sleep, 5000);
-    });
-
-
-    function sleep() {
-      e.style.opacity = 0;
-      e.style.transition = "visibility 0s 0.3s, opacity 0.3s linear";
-    }
   </script>
 </footer>

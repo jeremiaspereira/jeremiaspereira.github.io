@@ -18,19 +18,19 @@ No meu caso queria trabalhar com Front End que curto demais e acredito dominar b
 
 Vou dizer algumas coisas que fiz e algumas dicas, vamos lá.
 
-### 1 - Tenha um portfólio
+## 1 - Tenha um portfólio
 
 Se você é um programador, você é obrigado a ter uma conta no [GitHub](https://github.com/){:target="_blank"},
  sendo um programador Front End fica mais fácil fazer um portfólio pois já conhece HTML, CSS, minha dica então é ir criando repositórios com pequenos aplicações usando o que você sabe, então crie um [Git Pages](https://pages.github.com/){:target="_blank"} e lá coloque seus contatos e link seus repositórios falando um pouco sobre cada um e o que usou.
 Bacana, agora você tem algumas coisas que dizem que você sabe aquilo que diz, uma boa dica é colocar o Google Analitycs nessa sua página de portfólio e monitorar o tráfego de usuários, compartilhe seu portfólio nas redes sociais, veja [aqui](http://jeremiaspereira.net/portfolio/){:target="_blank"} como ficou o meu.
 
-### 2 - Tenha um currículo e uma carta de apresentação
+## 2 - Tenha um currículo e uma carta de apresentação
 
 Ter um currículo é fundamental, coloque o necessário e sem encheção de linguiça, fale sobre suas experiências, formação, o que sabe e em que área quer trabalhar, os recrutadores vão buscar palavras-chaves em seu currículo, então deixe elas a mostra e respirando para que elas possam ser encontradas com uma leitura superficial.
 
 Ter uma carta de apresentação matadora vale mais que um currículo, li isso em algum lugar... Então faça uma bem legal, nada de mandar aquele email seco só com o currículo em anexo.
 
-### 3 - Perfil profissional online
+## 3 - Perfil profissional online
 
 É super importante ter um perfil profissional online, então tenha o seu
 
@@ -40,21 +40,21 @@ Ter uma carta de apresentação matadora vale mais que um currículo, li isso em
 * [Trampos.com](http://trampos.co/){:target="_blank"} é um site legal e moderninho onde você cria seu perfil e busca empregos.
 * [Catho](http://www.catho.com.br/){:target="_blank"}, se estiver desesperado e pode pagar é uma boa opção, assinei por um mês, há um grande número de vagas publicadas, os mecanismos de busca são bem bons e de fácil uso.
 
-### 3 - Redes sociais
+## 3 - Redes sociais
 
 * [Facebook](https://www.facebook.com/){:target="_blank"} possui um grande número de grupos de divulgação de vagas de emprego e discussão que podem te ajudar ou desanimar.
 * [Twitter](https://twitter.com/){:target="_blank"}, tente fazer umas buscas por #vagas, #emprego  e vai encontrar muita coisa por lá.
 
-### 4 - lovemonday.com
+## 4 - lovemonday.com
 
 Antes de sair metralhando currículos para qualquer empresa, vale a pena dar uma olhada como esta avaliada esse empresa no [Lovemonday](https://www.lovemondays.com.br/){:target="_blank"}, recebi uma ótima proposta certa vez de uma empresa, mas quando olhei nesse site fiquei totalmente desanimado e recusei a proposta dela. Além desse site você pode estar também vendo o perfil delas nas redes sociais, quanto mais você saber sobre a empresa melhor, as chances de se decepcionar quando estiver la dentro serão menores.
 
-### 5 - Mais alguns sites
+## 5 - Mais alguns sites
 
-* [indeed](http://www.indeed.com.br/){:target="_blank"}
-* [cerviu](http://www.ceviu.com.br/){:target="_blank"}
-* [infojob](http://www.infojobs.com.br/){:target="_blank"}
-* [empregascampinas](http://www.catho.com.br/){:target="_blank"}
-* [trableless](http://workajobs.com.br/){:target="_blank"}
+* Indeed](http://www.indeed.com.br/){:target="_blank"}
+* [Cerviu](http://www.ceviu.com.br/){:target="_blank"}
+* [Infojob](http://www.infojobs.com.br/){:target="_blank"}
+* [Empregascampinas](http://www.catho.com.br/){:target="_blank"}
+* [Tableless](http://workajobs.com.br/){:target="_blank"}
 
 Essas foram algumas coisas que fiz, se fiz certo não sei e é muito relativo, se você mora em um grande capital se empregar é mais fácil, já morando em cidades menores para arrumar um emprego nela fica mais complicado na área de tecnologia, no meu caso tive que sair de Santa Rita do Sapucaí - MG e ir para Campinas - SP, que da uns 200 km da minha cidade natal, então saia de sua zona de conforto e caia no mundo, no começo pode ser assustador as mudanças mas as recompensas valeram a pena. Em breve vou contar como está essa nova fase em Campinas.

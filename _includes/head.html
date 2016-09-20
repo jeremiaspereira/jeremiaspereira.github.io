@@ -1,25 +1,29 @@
 <head>
-  <link rel="shortcut icon" type="image/png" href="{{ "/img/favicon.png" | prepend: site.baseurl }}"/>
   <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}assets/img/favicon.ico"/>
+  <meta name="description" content="{{ site.description }}">
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:image" content="{% if page.cover %}/cover-post/{{page.cover}} {% endif %}" />
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="author" content="Jeremias Pereira - jeremiaspereira.net">
+  <meta property="og:title" content="{{ site.title }}">
   <meta property="og:site_name" content="Jeremias Pereira">
-  <meta property="og:type" content="website">
-  <meta name="keywords" content="Jeremias Pereira, Portfólio, Jekyll, PHP, AngularJs, CSS, JavaScript, SASS, HTML, JSON, JQuery">
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:url" content="http://www.jeremiaspereira.net/" />
 
+  <!--
+  <meta property="og:image" content="{{site.url}}assets/img/card.png" />
+  <link rel="stylesheet" href="{{ site.baseurl }}css/main.css">
+  -->
+  <link rel="stylesheet" href="{{ site.baseurl }}assets/css/normalize.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}assets/css/style.css">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/assets/font-awesome/css/font-awesome.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}assets/font-awesome/css/font-awesome.css">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
- <!-- Favicon
-    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-ico" />-->
 </head>

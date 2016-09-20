@@ -1,0 +1,44 @@
+---
+layout: page
+permalink: /blog/
+title: Jeremias Pereira | blog
+---
+
+<section class="inner-content blog">
+  <ul>
+    {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">
+            <h1>{{ post.title }} </h1>
+            <div class="blog__post-date">
+                {% assign m = post.date | date: "%-m" %}
+                {{ post.date | date: "%d" }}
+                {% case m %}
+                  {% when '1' %}Jan
+                  {% when '2' %}Fev
+                  {% when '3' %}Mar
+                  {% when '4' %}Abr
+                  {% when '5' %}Mai
+                  {% when '6' %}Jun
+                  {% when '7' %}Jul
+                  {% when '8' %}Ago
+                  {% when '9' %}Set
+                  {% when '10' %}Out
+                  {% when '11' %}Nov
+                  {% when '12' %}Dez
+                {% endcase %}
+
+                {{ post.date | date: "%Y" }}
+            </div>
+            <h3>
+              {{ post.content | strip_html | truncatewords:40 }}
+            </h3>
+         </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="footer">
+  <p>Copyright © 2016 Jeremias Pereira. Designed by me</p>
+</section>
