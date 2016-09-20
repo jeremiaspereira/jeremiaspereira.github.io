@@ -11,7 +11,9 @@ function fixImgHeight(){
 
 
   var triangle = document.querySelector('.triangle');
-  triangle.style.marginTop =  (height-80)+'px';
+  if(triangle){
+     triangle.style.marginTop =  (height-80)+'px';
+  }
 }
 
 var header=document.querySelector('.site-header')
