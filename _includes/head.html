@@ -21,11 +21,11 @@
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@jerepere">
-  <meta property="twitter:image:src" content="{{ site.baseurl }}assets/img/social.png">
-  <meta property="og:image" content="{{ site.baseurl }}assets/img/social.png">
+  <meta property="twitter:image:src" content="{{ site.url }}/assets/img/social.png">
+  <meta property="og:image" content="{{ site.url }}/assets/img/social.png">
 
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml"/>
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
   <link rel="apple-touch-icon" href="/assets/img/favicon-96x96.png">
   <link rel="apple-touch-icon" href="/assets/img/favicon-192x192.png" sizes="180x180">

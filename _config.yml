@@ -3,7 +3,7 @@ title: jeremiaspereira.net
 email: jeremiastpererira@gmail.com
 description: 'Um mineiro na cidade grande, front-end por amor, vegano por respeito a vida, falando sobre coisas que gosta'
 baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://www.jeremiaspereira.net/" # the base hostname & protocol for your site
+url: "http://www.jeremiaspereira.net" # the base hostname & protocol for your site
 twitter_username: jerepere
 github_username:  jeremiaspereira
 
