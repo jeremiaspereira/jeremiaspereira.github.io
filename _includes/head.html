@@ -13,15 +13,17 @@
   <meta name="author" content="Jeremias Pereira">
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="{{ site.url }}/assets/img/social.png">
 
   <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
   <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  <meta name="twitter:site" content="@jerepere" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@jerepere">
   <meta property="twitter:image:src" content="{{ site.url }}/assets/img/social.png">
-  <meta property="og:image" content="{{ site.url }}/assets/img/social.png">
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml"/>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
