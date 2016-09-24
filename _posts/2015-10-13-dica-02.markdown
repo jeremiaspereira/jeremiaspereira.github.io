@@ -23,16 +23,12 @@ Possui aplicativo para IOS, Android e Windows Phone (Isso mesmo ...) e pode ser 
   <iframe width="100%" height="400" src="https://www.youtube.com/embed/kEra9zR6Cf8" frameborder="0" allowfullscreen></iframe>
 </div>
 
-### Saiba +
+A seguir mais alguns links para se aprofundar mais no mundo Evernote.
 
-
-##### [<i class="fa fa-external-link"></i> Medium](https://medium.com/@evernote_brasil){:target="_blank"}
-
-##### [<i class="fa fa-external-link"></i> LinguaLeo](https://blog.evernote.com/ptbr/2014/09/25/caderno-especial-evernote-auxilia-voce-estudo-ingles/){:target="_blank"}
-
-##### [<i class="fa fa-external-link"></i> Blog](https://blog.evernote.com/ptbr/){:target="_blank"}
-
-##### [<i class="fa fa-external-link"></i> Twitter](https://twitter.com/evernote){:target="_blank"}
+* [Medium](https://medium.com/@evernote_brasil){:target="_blank"}
+* [LinguaLeo](https://blog.evernote.com/ptbr/2014/09/25/caderno-especial-evernote-auxilia-voce-estudo-ingles/){:target="_blank"}
+* [Blog](https://blog.evernote.com/ptbr/){:target="_blank"}
+* [Twitter](https://twitter.com/evernote){:target="_blank"}
 
 Até a próxima. (:
 

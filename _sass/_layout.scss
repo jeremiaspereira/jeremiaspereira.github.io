@@ -1,3 +1,4 @@
+@charset "utf-8";
 // header
 .site-header {
   position: fixed;
@@ -290,16 +291,21 @@
   padding-top: 110px;
 
   .blog-post__date{
-    padding-bottom: 17px;
-    font-size:0.9em;
+    font-size:0.8em;
+    color: lighten($text-color, 30%);
   }
 
   h1{
     font-weight:700;
     color:#4C4C4C;
+    padding-bottom: 17px;
   }
 
-  p { font-weight:400; }
+  h2 {
+    margin:20px 0;
+    font-weight:600;
+    color:#4C4C4C;
+  }
 
   img {
     display: block;
@@ -308,22 +314,30 @@
   }
 
   li{
-    padding: 1px 0 1px 17px; ;
+    padding-left: 33px; ;
+    margin-bottom:10px;
     list-style: none;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.58;
+    letter-spacing: -.003em;
   }
 
   li::before {
+    font-size: 22px;
+    margin-top: -4px;
+    padding-right: 13px;
     content: "•";
-    font-size: 1.6em;
-    padding-right: 15px;
-    box-sizing: border-box;
-    display: inline-block;
-    margin-left: -1.6em;
-    margin-top: -0.24em;
     position: absolute;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 78px;
+    margin-left: -78px;
     text-align: right;
-    width: 55px;
-    color:#8D8D8D;
+  }
+
+  .codepen {
+    margin: 20px 0;
   }
 }
 
@@ -385,21 +399,26 @@
       }
 
       b {
-        color:lighten($text-color, 5%);
-        font-weight:400;
+        color:lighten($text-color, 10%);
+        font-weight:600;
       }
 
-      p { margin-bottom: 5px; }
+      p {
+       margin-bottom: 0px;
+       padding-top: 5px;
+      }
 
-      .tags span {
-        border-radius: 3px;
-        padding: 0 5px;
-        color:#fff;
-        margin-bottom:3px;
-        display:inline-table;
-        font-size:.8em;
-        line-height:150%;
-         background: #99C0F6;
+      .tags{
+        span {
+          border-radius: 3px;
+          padding: 0 5px;
+          color:#fff;
+          margin-bottom:3px;
+          display:inline-table;
+          font-size:.8em;
+          line-height:150%;
+          background: #99C0F6;
+        }
       }
 
       .conhecimentos  i{ color: #2AF8AD; }

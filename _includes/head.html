@@ -2,28 +2,41 @@
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}assets/img/favicon.ico"/>
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="author" content="Jeremias Pereira - jeremiaspereira.net">
   <meta property="og:title" content="{{ site.title }}">
   <meta property="og:site_name" content="Jeremias Pereira">
+  <meta name="author" content="Jeremias Pereira">
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="{{ site.description }}" />
   <meta property="og:url" content="http://www.jeremiaspereira.net/" />
 
-  <!--
-  <meta property="og:image" content="{{site.url}}assets/img/card.png" />
-  <link rel="stylesheet" href="{{ site.baseurl }}assets/css/style.css">
-  -->
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@jerepere">
+  <meta property="twitter:image:src" content="{{ site.baseurl }}assets/img/social.png">
+  <meta property="og:image" content="{{ site.baseurl }}assets/img/social.png">
+
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <link rel="apple-touch-icon" href="/assets/img/favicon-96x96.png">
+  <link rel="apple-touch-icon" href="/assets/img/favicon-192x192.png" sizes="180x180">
+  <link rel="icon" href="/assets/img/favicon-192x192.png" sizes="192x192">
+  <link rel="icon" href="/assets/img/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" href="/assets/img/favicon-96x96.png" sizes="96x96">
+
+
   <link rel="stylesheet" href="{{ site.baseurl }}assets/css/normalize.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}assets/font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="{{ site.baseurl }}css/main.css">
 
-  <link rel="stylesheet" href="{{ site.baseurl }}assets/font-awesome/css/font-awesome.css">
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 </head>

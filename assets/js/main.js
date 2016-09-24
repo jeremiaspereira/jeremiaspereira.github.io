@@ -12,7 +12,7 @@ function fixImgHeight(){
 
   var triangle = document.querySelector('.triangle');
   if(triangle){
-     triangle.style.marginTop =  (height-80)+'px';
+     triangle.style.marginTop =  (height-50)+'px';
   }
 }
 

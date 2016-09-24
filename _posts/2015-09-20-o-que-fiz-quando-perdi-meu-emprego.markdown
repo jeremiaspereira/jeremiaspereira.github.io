@@ -51,7 +51,7 @@ Antes de sair metralhando currículos para qualquer empresa, vale a pena dar uma
 
 ## 5 - Mais alguns sites
 
-* Indeed](http://www.indeed.com.br/){:target="_blank"}
+* [Indeed](http://www.indeed.com.br/){:target="_blank"}
 * [Cerviu](http://www.ceviu.com.br/){:target="_blank"}
 * [Infojob](http://www.infojobs.com.br/){:target="_blank"}
 * [Empregascampinas](http://www.catho.com.br/){:target="_blank"}
