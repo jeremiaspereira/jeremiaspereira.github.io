@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Camping Pico dos Marins"
-cover: camping-pico-dos-marins.jpg
 date:  2016-07-03 20:48:17
 description: "Dessa vez fui para acampar no Pico dos Marins, a serra da Mantiqueira é magica."
 tag:

@@ -43,8 +43,8 @@ Vamos a um exemplo simples.
 </div>
 
 *bloco: .list*
-*elementos: .list_header, .list-item*
-*modificadores: .list-blue, .list-teal*
+*elementos: .list__header, .list__item*
+*modificadores: .list--blue, .list--teal*
 
 Nesse exemplo eu usei [SASS](http://sass-lang.com/){:target="_blank"}, um pré-processador que ajuda e muito a escrever menos regras CSS entre tantas outras vantagens. Veja que crie um mixin que recebe uma cor por parâmetro e cria o CSS para o novo modelo de lista, foi apenas uma abordagem que escolhi.
 
