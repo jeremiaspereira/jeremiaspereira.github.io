@@ -2,7 +2,7 @@
 layout: post
 title: "BEM – Block Element Modifier"
 date:  2016-09-24 16:00
-description: "Vamos falar um pouco da metodologia BEM, uma maneira de dar nome as class em CSS."
+description: "Vamos falar um pouco de BEM – Block Element Modifier, uma maneira de nomear as classes, facilitando o intendimento de um bloco HTML e criar menos códigos CSS."
 tag: SASS, CSS
 ---
 
