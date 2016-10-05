@@ -50,7 +50,7 @@ Meus 12 livros estão listados a seguir, a cada livro lido falarei sobre ele em 
 
     <p><i class="fa fa-square-o"></i> Laranja Mecânica - Anthony Burgess (1962)</p>
 
-    <p>*Livros que não estavam na listagem proposta.s</p>
+    <p>*Livros que não estavam na listagem proposta.</p>
 </div>
 
 <div class="anchor-destination" id="janeiro">
