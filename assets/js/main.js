@@ -47,3 +47,17 @@ if(url == "/blog/"){
 } else if(url == "/trabalhos"){
   document.getElementById("menu-trabalhos").className = "active";
 }
+
+
+// Smooth Scrolling 12 meses 12 livros
+
+$('.books-list a').click(function(){
+  var jumpId = $(this).attr('href');
+  $('body').animate({scrollTop: $(jumpId).offset().top - 10}, 1500);
+});
+
+
+$('.anchor-destination a').click(function(){
+  var jumpId = $(this).attr('href');
+  $('body').animate({scrollTop: $(jumpId).offset().top - 10}, 1500);
+});

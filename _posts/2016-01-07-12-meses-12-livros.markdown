@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "12 meses 12 livros"
-cover:  12-meses-12-livros.png
 date:   2016-01-07 22:00:00
 description: "Todo mundo faz metas para o próximo ano, que tal escolher 12 livros, um para cada mês? Te desafio!"
 tag: 
     - 12 meses 12 livros
     - Janeiro
 ---
+
+[ Atualizado 04/10/2016 ] &nbsp;
 
 Olá, 2016 chegou, ótimo ano para você! Vou lançar um desafio que era para ter sido feito no final de 2015, mais ainda da tempo.
 
@@ -17,41 +18,49 @@ Para dar uma mãozinha na hora de escolher, você pode dar uma lida nesse [artig
 
 Meus 12 livros estão listados a seguir, a cada livro lido falarei sobre ele em um novo post, a ordem que estão os livros não será seguida provavelmente, a ideia é pagar o menos possível por cada livro assim da para garimpar em sebos ou pegar em promoções pela internet.
 
-<i class="fa fa-check-square-o"></i> [ [JANEIRO]   Senhor Das Moscas - William Golding (1954)](#janeiro)
 
-<i class="fa fa-check-square-o"></i> [ [FEVEREIRO] Fahrenheit 451 - Ray Bradbury (1953)](#fevereiro)
+<div class="books-list">
+    <p><i class="fa fa-check-square-o"></i> <a href="#janeiro"> [JANEIRO]   Senhor Das Moscas - William Golding (1954)</a></p>
 
-<i class="fa fa-check-square-o"></i> [ [MARÇO] 1984 – George Orwell (1949)](#marco)
+    <p><i class="fa fa-check-square-o"></i> <a href="#fevereiro"> [FEVEREIRO] Fahrenheit 451 - Ray Bradbury (1953)</a></p>
 
-<i class="fa fa-check-square-o"></i>  [ [ABRIL] As crônicas marcianas – Ray Bradbury (1960)](#abril)
+    <p><i class="fa fa-check-square-o"></i> <a href="#marco"> [MARÇO] 1984 – George Orwell (1949)</a></p>
 
-<i class="fa fa-check-square-o"></i> [ [MAIO] O Sol É Para Todos - Harper Lee (1960)](#maio)
+    <p><i class="fa fa-check-square-o"></i>  <a href="#abril"> [ABRIL] As crônicas marcianas – Ray Bradbury (1960)</a></p>
 
-<i class="fa fa-check-square-o"></i> [ [JUNHO] *Guerra dos mundos – WELLS, H. G. (1898)](#junho)
+    <p><i class="fa fa-check-square-o"></i> <a href="#maio"> [MAIO] O Sol É Para Todos - Harper Lee (1960)</a></p>
 
-<i class="fa fa-check-square-o"></i> [ [JULHO] *Memórias Póstumas de Brás Cubas, Machado de Assis (1881)](#julho)
+    <p><i class="fa fa-check-square-o"></i> <a href="#junho"> [JUNHO] *Guerra dos mundos – WELLS, H. G. (1898)</a></p>
 
-<i class="fa fa-square-o"></i> Guia do Mochileiro das Galáxias - Douglas Adams (1979)
+    <p><i class="fa fa-check-square-o"></i> <a href="#julho"> [JULHO] *Memórias Póstumas de Brás Cubas, Machado de Assis (1881)</a></p>
 
-<i class="fa fa-square-o"></i> Vinte Mil Léguas Submarinas – Julio Verne (1870)
+    <p><i class="fa fa-check-square-o"></i> <a href="#agosto"> [AGOSTO] *Os Segredos da Mente Milionária - T. Harv Eker (2006)</a></p>
 
-<i class="fa fa-square-o"></i> Admirável Mundo Novo – Aldous Huxley (1932)
+    <p><i class="fa fa-square-o"></i> Guia do Mochileiro das Galáxias - Douglas Adams (1979)</p>
 
-<i class="fa fa-square-o"></i> Três tigres tristes - Cabrera Infante (1980)
+    <p><i class="fa fa-square-o"></i> Vinte Mil Léguas Submarinas – Julio Verne (1870)</p>
 
-<i class="fa fa-square-o"></i> Androides Sonham com Ovelhas Elétricas? - Philip K. Dick (1969)
+    <p><i class="fa fa-square-o"></i> Admirável Mundo Novo – Aldous Huxley (1932)</p>
 
-<i class="fa fa-square-o"></i> O Homem do Castelo Alto - Philip K. Dick (1962)
+    <p><i class="fa fa-square-o"></i> Três tigres tristes - Cabrera Infante (1980)</p>
 
-<i class="fa fa-square-o"></i> Laranja Mecânica - Anthony Burgess (1962)
+    <p><i class="fa fa-square-o"></i> Androides Sonham com Ovelhas Elétricas? - Philip K. Dick (1969)</p>
 
-*Livros que não estavam na listagem proposta.s
+    <p><i class="fa fa-square-o"></i> O Homem do Castelo Alto - Philip K. Dick (1962)</p>
 
-<hr>
+    <p><i class="fa fa-square-o"></i> Laranja Mecânica - Anthony Burgess (1962)</p>
 
-<h2 id="janeiro">Janeiro</h2>
+    <p>*Livros que não estavam na listagem proposta.s</p>
+</div>
 
-#### [Senhor Das Moscas - William Golding (1954)](http://www.livrariacultura.com.br/p/senhor-das-moscas-15056829){:target="_blank"} 
+<div class="anchor-destination" id="janeiro">
+    <h2>Janeiro</h2>
+    <a href="#body">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+</div>
+
+### [Senhor Das Moscas - William Golding (1954)](http://www.livrariacultura.com.br/p/senhor-das-moscas-15056829){:target="_blank"} 
 
 Após ter criado a lista dando um navegada na Amazon achei o ebook desse livro com um preço até que legal, então comprei para ler no Ipad, instalei o aplicativo Kindle e fiquei maravilhado com a qualidade daquilo, também instalei no celular e é possível ler online também, se estiver conectado a internet sua leitura fica sincronizada em todos dispositivos, assim você pode mudar de dispositivo e continuar de onde parou. No fim das contas comprei um Kindle.
 
@@ -66,11 +75,15 @@ Relata como eles lidam com a liberdade e seus medos, sem a presença de um adult
 <blockquote class="instagram-media img-center" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:400px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/_tpnT8n4ED/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Uma foto publicada por Jeremias Pereira (@jeremias_pereira)</a> em <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-12-25T11:34:18+00:00">Dez 25, 2015 às 3:34 PST</time></p></div></blockquote>
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 
-<hr>
 
-<h2 id="fevereiro">Fevereiro</h2>
+<div class="anchor-destination" id="fevereiro">
+    <h2>Fevereiro</h2>
+    <a href="#body">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+</div>
 
-#### [Fahrenheit 451 - Ray Bradbury (1953)](http://www.saraiva.com.br/fahrenheit-451-nova-ortografia-4087766.html){:target="_blank"} 
+### [Fahrenheit 451 - Ray Bradbury (1953)](http://www.saraiva.com.br/fahrenheit-451-nova-ortografia-4087766.html){:target="_blank"} 
 
 Foi meu programa de carnaval ler esse livro, a história é empolgante o que me fez devorar rapidamente o livro.
 
@@ -91,11 +104,14 @@ Boa leitura e até o próximo mês.
 <blockquote class="instagram-media img-center" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:400px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.5% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BBdFijKH4FW/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Uma foto publicada por Jeremias Pereira (@jeremias_pereira)</a> em <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-02-06T18:14:01+00:00">Fev 6, 2016 às 10:14 PST</time></p></div></blockquote>
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 
-<hr>
+<div class="anchor-destination" id="marco">
+    <h2>Março</h2>
+    <a href="#body">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+</div>
 
-<h2 id="marco">Março</h2>
-
-#### [1984 – George Orwell (1949)](http://www.saraiva.com.br/1984-2655792.html){:target="_blank"} 
+### [1984 – George Orwell (1949)](http://www.saraiva.com.br/1984-2655792.html){:target="_blank"} 
 
 Alguns vão me crucificar, mas é minha opinião e eu tenho que falar. 
 __ O livrinho chato e enrolado.
@@ -123,48 +139,12 @@ Ainda fazem meu coração sofrer. "
 <blockquote class="instagram-media img-center" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BDeA87an4N1/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Uma foto publicada por Jeremias Pereira (@jeremias_pereira)</a> em <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-03-27T19:55:58+00:00">Mar 27, 2016 às 12:55 PDT</time></p></div></blockquote>
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 
-<hr>
-
-<h2 id="abril">Abril</h2>
-
-### [As crônicas marcianas – Ray Bradbury (1960)](http://www.livrariacultura.com.br/p/cronicas-marcianas-17739340){:target="_blank"} 
-
-Mais uma vez Bradbury me surpreende. Um autor desconhecido para mim até esse desafio. Fui cativado por sua maneira de escrever simples e divertida, sua capacidade de criar e dar vida as coisas é fantástica, suas armadinhas para prender o leitor são formidáveis.
-
-O livro é um conjunto de crônicas que originalmente foram publicadas em revistas de Pulp Fiction, no final dos anos 1950, nos Estados Unidos e posteriormente reunidas se tornando esse belo livro. 
-
-As crônicas relatam de forma cronológica as expedições  do homem a marte em um período que a terra se encontra em guerra e seus primeiros contatos com os marcianos e posteriormente a colonização do planeta.
-
-É uma leitura leve e divertida que me fez dar boas risadas, acredito que qualquer um que goste de ficção científica vai se identificar com o livro e gostar. 
-    
-Boa leitura terráqueos e marcianos.
-
-> — Não vamos destruir Marte — disse o capitão. 
-> — É grande e bom demais. 
-> — O senhor acha que não? Os homens da Terra têm talento para acabar com coisas grandes e belas.
-
-> Como vocês se sentiria se fossem marcianos e seu território fosse invadido por gente que começasse a destruir tudo? - Spender
-
-> Os homens da terra tem o talento para acabar com as coisas grandes e belas. - Spender 
-
-<br/>
-
-<blockquote class="instagram-media img-center" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BE1Hm5rH4Ay/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Uma foto publicada por Jeremias Pereira (@jeremias_pereira)</a> em <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-04-30T15:48:03+00:00">Abr 30, 2016 às 8:48 PDT</time></p></div></blockquote>
-<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
-
-<br/>
-
-###### * * *
-
-Também li nesse mês o livro: [O Pico da Montanha é onde estão os meus pés](http://www.amazon.com.br/Pico-Montanha-onde-est%C3%A3o-meus-ebook/dp/B00PZ4M8V0){:target="_blank"}, é uma obra de ficção muito profunda que merece ser lida e relida várias vezes, onde um executivo bem-sucedido sobe a montanha para conhecer mais sobre o Zen Budismo e saber como harmonizar uma vida profissional ao Budismo. Para um melhor entendimento do livro vale a pena ver esses dois vídeos:
-
-[<i class="fa fa-play-circle-o color-red" aria-hidden="true"></i> Sobre o autor Monge Genshô](https://www.youtube.com/watch?v=O_B43a7yjxY){:target="_blank"} <br/>
-[<i class="fa fa-play-circle-o color-red" aria-hidden="true"></i> Vida Zen - Um documentario sobre o Zen da Soto Shu Japão](https://www.youtube.com/watch?v=9NYCdi1p4ts){:target="_blank"} 
-
-<hr>
-
-<h2 id="maio">Maio</h2>
-
+<div class="anchor-destination" id="abril">
+    <h2>Abril</h2>
+    <a href="#body">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+</div>
 
 ### [As crônicas marcianas – Ray Bradbury (1960)](http://www.livrariacultura.com.br/p/cronicas-marcianas-17739340){:target="_blank"} 
 
@@ -193,16 +173,59 @@ Boa leitura terráqueos e marcianos.
 
 <br/>
 
-###### * * *
 
 Também li nesse mês o livro: [O Pico da Montanha é onde estão os meus pés](http://www.amazon.com.br/Pico-Montanha-onde-est%C3%A3o-meus-ebook/dp/B00PZ4M8V0){:target="_blank"}, é uma obra de ficção muito profunda que merece ser lida e relida várias vezes, onde um executivo bem-sucedido sobe a montanha para conhecer mais sobre o Zen Budismo e saber como harmonizar uma vida profissional ao Budismo. Para um melhor entendimento do livro vale a pena ver esses dois vídeos:
 
 [<i class="fa fa-play-circle-o color-red" aria-hidden="true"></i> Sobre o autor Monge Genshô](https://www.youtube.com/watch?v=O_B43a7yjxY){:target="_blank"} <br/>
 [<i class="fa fa-play-circle-o color-red" aria-hidden="true"></i> Vida Zen - Um documentario sobre o Zen da Soto Shu Japão](https://www.youtube.com/watch?v=9NYCdi1p4ts){:target="_blank"} 
 
-<hr>
+<div class="anchor-destination" id="maio">
+    <h2>Maio</h2>
+    <a href="#body">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+</div>
 
-<h2 id="junho">Junho</h2>
+
+### [As crônicas marcianas – Ray Bradbury (1960)](http://www.livrariacultura.com.br/p/cronicas-marcianas-17739340){:target="_blank"} 
+
+Mais uma vez Bradbury me surpreende. Um autor desconhecido para mim até esse desafio. Fui cativado por sua maneira de escrever simples e divertida, sua capacidade de criar e dar vida as coisas é fantástica, suas armadinhas para prender o leitor são formidáveis.
+
+O livro é um conjunto de crônicas que originalmente foram publicadas em revistas de Pulp Fiction, no final dos anos 1950, nos Estados Unidos e posteriormente reunidas se tornando esse belo livro. 
+
+As crônicas relatam de forma cronológica as expedições  do homem a marte em um período que a terra se encontra em guerra e seus primeiros contatos com os marcianos e posteriormente a colonização do planeta.
+
+É uma leitura leve e divertida que me fez dar boas risadas, acredito que qualquer um que goste de ficção científica vai se identificar com o livro e gostar. 
+    
+Boa leitura terráqueos e marcianos.
+
+> — Não vamos destruir Marte — disse o capitão. 
+> — É grande e bom demais. 
+> — O senhor acha que não? Os homens da Terra têm talento para acabar com coisas grandes e belas.
+
+> Como vocês se sentiria se fossem marcianos e seu território fosse invadido por gente que começasse a destruir tudo? - Spender
+
+> Os homens da terra tem o talento para acabar com as coisas grandes e belas. - Spender 
+
+<br/>
+
+<blockquote class="instagram-media img-center" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BE1Hm5rH4Ay/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Uma foto publicada por Jeremias Pereira (@jeremias_pereira)</a> em <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-04-30T15:48:03+00:00">Abr 30, 2016 às 8:48 PDT</time></p></div></blockquote>
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+
+<br/>
+
+
+Também li nesse mês o livro: [O Pico da Montanha é onde estão os meus pés](http://www.amazon.com.br/Pico-Montanha-onde-est%C3%A3o-meus-ebook/dp/B00PZ4M8V0){:target="_blank"}, é uma obra de ficção muito profunda que merece ser lida e relida várias vezes, onde um executivo bem-sucedido sobe a montanha para conhecer mais sobre o Zen Budismo e saber como harmonizar uma vida profissional ao Budismo. Para um melhor entendimento do livro vale a pena ver esses dois vídeos:
+
+[<i class="fa fa-play-circle-o color-red" aria-hidden="true"></i> Sobre o autor Monge Genshô](https://www.youtube.com/watch?v=O_B43a7yjxY){:target="_blank"} <br/>
+[<i class="fa fa-play-circle-o color-red" aria-hidden="true"></i> Vida Zen - Um documentario sobre o Zen da Soto Shu Japão](https://www.youtube.com/watch?v=9NYCdi1p4ts){:target="_blank"} 
+
+<div class="anchor-destination" id="junho">
+    <h2>Junho</h2>
+    <a href="#body">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+</div>
 
 ### [Guerra dos mundos – WELLS, H. G. (1898)](http://www.livrariacultura.com.br/p/a-guerra-dos-mundos-1833953){:target="_blank"} 
 
@@ -222,9 +245,12 @@ Os marcianos são muito mais avançados tecnologicamente que os seres humanos, f
 
 <blockquote class="instagram-media img-center" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BGxWXg8H4I0/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Uma foto publicada por Jeremias Pereira (@jeremias_pereira)</a> em <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-06-17T21:42:51+00:00">Jun 17, 2016 às 2:42 PDT</time></p></div></blockquote> <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 
-<hr>
-
-<h2 id="julho">Julho</h2>
+<div class="anchor-destination" id="julho">
+    <h2>Julho</h2>
+    <a href="#body">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+</div>
 
 ### [Memórias Póstumas de Brás Cubas, Machado de Assis (1881)](http://www.saraiva.com.br/memorias-postumas-de-bras-cubas-col-classicos-saraiva-conforme-a-nova-ortografia-2645782.html){:target="_blank"} 
 
@@ -244,3 +270,43 @@ Boa leitura (;
 
 <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:47.9166666667% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BH7ss2ljcei/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Uma foto publicada por Jeremias Pereira (@jeremias_pereira)</a> em <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-07-16T18:41:48+00:00">Jul 16, 2016 às 11:41 PDT</time></p></div></blockquote>
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+
+<div class="anchor-destination" id="agosto">
+    <h2>Agosto</h2>
+    <a href="#body">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+</div>
+
+### [Os Segredos da Mente Milionária -  T. Harv Eker (2006)](https://www.amazon.com.br/Segredos-Mente-Milion%C3%A1ria-Harv-Eker/dp/8575422391){:target="_blank"} 
+
+
+Por que eu não li esse livro antes? Foi a pergunta que me fiz durante todo o livro.
+
+É daqueles livros que você quer devorar e absorver cada palavra escrita, o autor aconselha a reler o livro todo mês durante um ano, para sugar o máximo dele.
+
+É um livro sobre $$$, se você acha que dinheiro é coisa do capiroto ou que ele não é importante para você, volte para a frente da TV e continue assistindo as novelinhas da Globo.
+
+O autor inicia falando de "modelos de dinheiro", segundo ele temos um modelo de dinheiro em nossas cabeças que recebemos de nossos pais (as vezes um presente de grego.) e isso vai definir como  lidamos com o dinheiro quando crescemos.
+
+Se você quando criança ouviu que o dinheiro era sujo, ruim, maldito, só traz infelicidade, ... Quando você cresce com certeza vai gastar tudo que ganha, pois o dinheiro é sujo, é ruim ...
+
+Você ficaria casado(a)  com uma mulher maldita ou um marido maldito por muito tempo?  Se você tem uma sociedade e seu sócio é ruim, essa sociedade vai para frente? Então se o dinheiro é algo ruim seu subconsciente vai fazer de tudo para que você dê fim em todo dinheiro que recebe. Parece conversa mas faz sentindo, por que ficar com algo que não nos faz bem?
+
+Na segunda parte do livro ele oferece 17 arquivos de riqueza para  sobrescrever  os antigos arquivos defeituosos, em cada arquivo há declarações para ler em voz alta(Melhor fixar.) e ações a serem tomadas.
+
+Fui criado em um família simples no sítio, o dinheiro era sofrido, lembro de alguns valores quando entrou o plano real, meu pai tinha uma olaria de  tijolos e vendia o milheiro a R$40,00, acordava com o dia escuro e trabalha até escurecer, outro valor absurdo que lembro: R$10,00 era o dia de trabalho na roça. Minha mãe me dava R$5,00 para ir aos sábados na cidade a noite eu comprava um cachorro quente (R$2,00) + lata de refrigerante (R$1,50) + Halls (R$1,00) e me sobrava R$0,50.  Resumo da história meus pais viviam com o mínimo, não havia ambição, o dinheiro era para comer e para pagar as contas, a culpa não é deles, eles foram criados assim, o dinheiro ainda continua sendo um problema para meus pais. 
+ 
+Tive educação, fiz faculdade mas não tive educação financeira, as crianças de hoje não tem ideia de dinheiro, nem os pais, eles vivem afundados em dividas para manter o status social. A escola ensina o aluno para ser um funcionário e não um empresário, os pais querem que seus filhos estudem para terem um bom emprego e se aposentarem, a mídia quer que você consuma produtos do momento, os bancos querem que você faça empréstimos para comprar carros, casas ... o governo te ferra com os impostos.
+
+Triste não? Então comece a poupar, pague a você primeiro antes de pagar as contas, faça uma poupança, aprenda sobre tesouro direto, comece devagar, não durma no ponto, se não vai aposentar com 70 anos ganhando um salário mínimo, se chegar até lá.    
+
+Quero ser rico, ser pobre da trabalho demais.
+
+> "Não existe vítimas verdadeiramente ricas."
+
+> "Aquilo que focamos se expande."
+
+> "Não é o que não sabemos que nos impede de vencer, o nosso maior obstáculo é justamente o que já sabemos."
+
+> "Nenhum pensamento mora de graça na cabeça de ninguém,  todos eles são investimentos ou custos. Ou levam a pessoa na direção da felicidade e do sucesso ou a afastam dessas duas coisas ou a fortalecem ou a enfraquecem." 

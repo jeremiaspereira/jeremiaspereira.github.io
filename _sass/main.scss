@@ -3,6 +3,7 @@ $background-menu: #3b3b3b;
 $background-menu-active: #292929;
 $color-font-menu: #818181;
 
+$color-base:#7AA8A5;
 
 $base-font-family: 'Raleway', sans-serif;
 $base-font-size:  18px;
@@ -10,7 +11,8 @@ $base-line-height: 1.5;
 $spacing-unit: 20px;
 $text-color: #3E3E3E;
 $background-color: #ffffff;
-$brand-color: #5F96DE;
+$brand-color: $color-base;
+$c-anchor:$color-base;
 
 $content-width: 1024px;
 
@@ -25,6 +27,8 @@ $linkedin: #1B86BC;
 $instagram: #517fa4;
 $github: #000;
 $facebook: #43609C;
+
+
 
 
 
