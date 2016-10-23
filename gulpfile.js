@@ -1,23 +1,29 @@
-var gulp      = require('gulp'),
+var gulp        = require('gulp'),
 	plumber     = require('gulp-plumber'),
 	browserSync = require('browser-sync'),
-	sass      = require('gulp-sass'),
+	sass        = require('gulp-sass'),
 	concat      = require('gulp-concat'),
-	cp          = require('child_process').spawn;
+	exec        = require('child_process').exec;
+
 
 var messages = {
-	jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
+	jekyllBuild: '<div style="color:#8ABEBC;">Running: $jekyll build</div> '
 };
 
 
-gulp.task('jekyll-build', function (done) {
+
+/**
+ * Build the Jekyll Site
+ */
+
+gulp.task('jekyll', function (){
 	browserSync.notify(messages.jekyllBuild);
-	return cp('jekyll.bat', ['build'], {stdio: 'inherit'})
-		.on('close', done);
+	exec('jekyll build --watch --incremental', function(err, stdout, stderr) {
+	    console.log(stdout);
+	});
 });
 
-
-gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
+gulp.task('jekyll-rebuild', ['jekyll'], function () {
 	browserSync.reload();
 });
 
@@ -26,7 +32,7 @@ gulp.task('site-reload', function () {
   browserSync.reload();
 });
 
-gulp.task('browser-sync', ['jekyll-build'], function() {
+gulp.task('browser-sync', ['jekyll'], function() {
 	browserSync({
 		server: {
 			baseDir: '_site'
@@ -37,7 +43,7 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
 
 /* Concatena os scss e gera um css*/
 gulp.task('sass', function(){
-  return gulp.src('_sass/*.scss')
+  return gulp.src('./assets/sass/*.scss')
     .pipe(plumber())
     .pipe(concat('main.css'))
     .pipe(sass().on('error', sass.logError))
