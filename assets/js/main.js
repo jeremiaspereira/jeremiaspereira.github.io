@@ -26,8 +26,8 @@ headroom= new Headroom(header,{
   },
   classes:{
     initial:"animated",
-    pinned:"slideDown",
-    unpinned:"slideUp",
+    pinned:"slide-down",
+    unpinned:"slide-up",
     top:"top",
     notTop:"notTop",
     bottom:"bottom",

@@ -11,7 +11,7 @@ $text-color: #3e3e3e;
 $background-color: #fff;
 $brand-color: $color-base;
 $c-anchor: $color-base;
-$content-width: 1024px;
+$content-width: 960px;
 $screen-xs-max: 480px;  // Celular
 $screen-sm-max: 768px;  // ipad vertical
 $screen-md-max: 1024px;  // Ipad horizontal
@@ -25,12 +25,13 @@ $facebook: #43609c;
 $github: #000;
 
 
-$c-header: #272727;
+$c-header: #272727; // font color, active, hover
 
 /* Main color */
 
 $c-white: #fff;
 $c-gray: #ddd;
+
 
 
 // Mixins

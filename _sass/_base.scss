@@ -164,10 +164,25 @@ a {
 
 
 hr {
-  margin: 20px 0 10px 0;
-  background: #fff;
   border: 0;
-  border-bottom: double medium #d8d7d7;
+}
+
+hr.section-divider:before {
+    font-family: medium-content-slab-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    letter-spacing: .6em;
+    content: '...';
+    display: inline-block;
+    margin-left: .6em;
+    color: rgba(0,0,0,.6);
+    position: relative;
+    top: -50px;
+    display: block;
+    border: 0;
+    text-align: center;
+    margin: 70px 0;
 }
 
 /**
