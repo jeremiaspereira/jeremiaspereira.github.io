@@ -4,7 +4,7 @@ title:  "Dica #02 :: Evernote"
 date:  2015-10-13 22:48:17
 cover: evernote.png
 description: "Dicas para o seu dia-a-dia"
-tag: Dicas
+categories: dicas
 ---
 
 Sou do tipo que sempre está fazendo anotações e quero ter acesso em  qualquer lugar e nos dispositivos que tenho, há inúmeras opções no mercado, minha escolha foi o [Evernote](https://evernote.com/intl/pt-br/){:target="_blank"}, você pode instalar no seu computador, dispositivos móveis ou usar on-line.

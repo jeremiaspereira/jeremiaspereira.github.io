@@ -4,9 +4,9 @@ title: "Pedra da Mina"
 cover: pedra-da-mina.png
 date:  2015-09-02 11:48:17
 description: "Um pouco sobre a Pedra da Mina e alguams fotos e dicas."
-tag:
-  - Camping
-  - Trekking
+categories:
+  - camping
+  - trekking
 ---
 
 O primeiro vez a gente nunca esquece, meu primeiro acampar de verdade foi na Pedra da Mina, ela é mágica e alcançar seu cume foi uma vitória.

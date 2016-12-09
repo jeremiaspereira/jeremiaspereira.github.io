@@ -280,6 +280,23 @@
   }
 }
 
+
+/* Category Blog
+   ========================================================================== */
+
+.category {
+  a {
+    margin-right: 7px;
+    float: right;
+  }
+
+  span {
+    display: inline-block;
+    border-bottom: solid 1px #eee;
+  }
+}
+
+
 /* Blog
    ========================================================================== */
 
@@ -290,18 +307,48 @@
   li {
     margin: 15px 0;
   }
+
   h1 {
     margin-bottom: 0;
     font-weight: 600;
     color: #4c4c4c;
   }
+
   h3 {
     color: $text-color;
   }
+
   .blog__post-date {
     padding-bottom: 8px;
     font-size: .8em;
     color: #979797;
+  }
+}
+
+.category-list {
+  margin-top: 5px;
+  margin-bottom:30px;
+
+  a{
+    color: #6A6969;
+    font-weight: 100;
+  }
+
+  li {
+    display: inline-block;
+    border-bottom:1px solid #fff;
+    padding: 3px 0px;
+    margin: 3px 20px 3px 0;
+
+    &:hover,  {
+     border-bottom:1px solid #CBCBCB;
+      color: #5E5E5E;
+    }
+  }
+
+  .category-item__active {
+      border-bottom:1px solid #CBCBCB;
+      color: #5E5E5E;
   }
 }
 
@@ -314,6 +361,7 @@
   .blog-post__date {
     font-size: .8em;
     color: lighten($text-color, 30%);
+    margin-bottom: 40px;
   }
 
   p {
@@ -325,6 +373,7 @@
   h1 {
     font-weight: 700;
     color: #4c4c4c;
+    margin-bottom: 0px;
   }
 
   h2 {
@@ -332,6 +381,7 @@
     font-weight: 600;
     color: #4c4c4c;
   }
+
 
   img {
     display: block;

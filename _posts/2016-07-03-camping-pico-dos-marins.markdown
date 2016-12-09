@@ -3,13 +3,13 @@ layout: post
 title:  "Camping Pico dos Marins"
 date:  2016-07-03 20:48:17
 description: "Dessa vez fui para acampar no Pico dos Marins, a serra da Mantiqueira é magica."
-tag:
-  - Camping
-  - Trekking
+categories:
+  - camping
+  - trekking
 ---
 
 
-Mais uma vez volto Pico dos Marins na Serra da Mantiqueira, dessa vez estamos em 5 e é para acampar, estive em 2015 lá e escrevi algumas coisas [aqui](/2015/05/24/pico-dos-marins.html){:target="_blank"}. 
+Mais uma vez volto Pico dos Marins na Serra da Mantiqueira, dessa vez estamos em 5 e é para acampar, estive em 2015 lá e escrevi algumas coisas [aqui](/2015/05/24/pico-dos-marins.html){:target="_blank"}.
 
 Já acampei na [Pedra da Mina](/2015/09/02/pedra-da-mina.html){:target="_blank"} e foi um parto pela pouca experiência e equipamentos nada bons, dessa vez fui mais preparado. Morando em Campinas e tendo uma loja da Decathon perto, ajudou muito, dei um bom lucro para eles.
 
@@ -19,11 +19,11 @@ A subida foi tranquila, embora não seja nada parecido com corrida e mountain bi
 
 A noite foi tranquila, sem vento, chuva ou muito fria, maio não é o melhor mês para esse tipo de coisa, o tempo é bem instável na serra e não dá para saber muito o que te espera.
 
-Recomendo levar uma sopa para comer a noite, levei [essa](http://www.grings.com.br/produto.php?produto=35&amp;SOPA+MAGRILEV+ERVILHA){:target="_blank"}, ela é bem natureba, caiu super bem com o vinho. Você não encontrará água lá em cima, então leve o quanto achar que precisa, o maior consumo é na subida.   
+Recomendo levar uma sopa para comer a noite, levei [essa](http://www.grings.com.br/produto.php?produto=35&amp;SOPA+MAGRILEV+ERVILHA){:target="_blank"}, ela é bem natureba, caiu super bem com o vinho. Você não encontrará água lá em cima, então leve o quanto achar que precisa, o maior consumo é na subida.
 
-O sol não nasceu tão belo como esperava, mas o mar de nuvens valeu a pena, renderam poucas fotos legais, perdi o olhar fotográfico pela pouca prática. ):  
+O sol não nasceu tão belo como esperava, mas o mar de nuvens valeu a pena, renderam poucas fotos legais, perdi o olhar fotográfico pela pouca prática. ):
 
-O que percebo pela segunda vez indo ao pico dos Marins é o número de pessoas pouco preparadas para tal tipo de aventura, há pontos na trilha que uma queda pode significar a morte, vi muitas pessoas de calça jeans, tênis ou outro vestuário nada adequado, isso gera riscos para pessoa ou quem está atras dela em alguns pontos da trilha.     
+O que percebo pela segunda vez indo ao pico dos Marins é o número de pessoas pouco preparadas para tal tipo de aventura, há pontos na trilha que uma queda pode significar a morte, vi muitas pessoas de calça jeans, tênis ou outro vestuário nada adequado, isso gera riscos para pessoa ou quem está atras dela em alguns pontos da trilha.
 
 [<i class="fa fa-map-signs" aria-hidden="true"></i> Percurso de subida](https://www.strava.com/activities/590432892){:target="_blank"}<br>
 [<i class="fa fa-map-signs" aria-hidden="true"></i> Percurso de descida](https://www.strava.com/activities/590848016){:target="_blank"}<br>

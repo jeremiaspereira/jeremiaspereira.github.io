@@ -5,30 +5,42 @@ title: Jeremias Pereira | blog
 ---
 
 <section class="inner-content blog">
+
+ <ul class="category-list">
+    {% for category in site.categories %}
+    <li>
+      <a href="/categoria/{{ category | first }}/">
+        {{ category | first | capitalize | replace: '-', ' ' }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
   <ul>
     {% for post in site.posts %}
         <li>
           <a href="{{ post.url }}">
             <h1>{{ post.title }} </h1>
             <div class="blog__post-date">
-                {% assign m = post.date | date: "%-m" %}
-                {{ post.date | date: "%d" }}
-                {% case m %}
-                  {% when '1' %}Jan
-                  {% when '2' %}Fev
-                  {% when '3' %}Mar
-                  {% when '4' %}Abr
-                  {% when '5' %}Mai
-                  {% when '6' %}Jun
-                  {% when '7' %}Jul
-                  {% when '8' %}Ago
-                  {% when '9' %}Set
-                  {% when '10' %}Out
-                  {% when '11' %}Nov
-                  {% when '12' %}Dez
-                {% endcase %}
+              {% assign m = post.date | date: "%-m" %}
+              {{ post.date | date: "%d" }}
+              {% case m %}
+                {% when '1' %}Janeiro
+                {% when '2' %}Fevereiro
+                {% when '3' %}Março
+                {% when '4' %}Abril
+                {% when '5' %}Maio
+                {% when '6' %}Junho
+                {% when '7' %}Julho
+                {% when '8' %}Agosto
+                {% when '9' %}Setembro
+                {% when '10' %}Outubro
+                {% when '11' %}Novembro
+                {% when '12' %}Dezembro
+              {% endcase %}
+              {{ post.date | date: "%Y" }}
 
-                {{ post.date | date: "%Y" }}
+              &nbsp;| &nbsp;  {{ post.categories | first | capitalize | replace: '-', ' ' }}
             </div>
             <h3>
               {{ post.content | strip_html | truncatewords:40 }}

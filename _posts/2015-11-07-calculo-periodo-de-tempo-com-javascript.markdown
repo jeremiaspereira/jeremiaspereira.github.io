@@ -4,7 +4,7 @@ title: "Calculando período de tempo com JavaScript"
 date:  2015-11-07 22:00:00
 cover: calculando-periodo-de-tempo-com-javascript.png
 description: "Um Js simples para fazer o cálculo de tempo entre uma hora e outra."
-tag: JavaScript
+categories: dev
 ---
 
 Você já ouviu falar por ai que JQuery não é JavaScript, pois então deixe de ser preguiçoso e comece a estudar JavaScript, rss.

@@ -4,7 +4,7 @@ title:  "O que fiz quando perdi meu emprego"
 date:   2015-09-21 21:00:00
 cover: o-que-fiz-quando-perdi-meu-emprego.png
 description: "Sou Analista de Sistemas e fiquei desempregado, ralei um pouco até voltar para o mercado de trabalho, mais voltei e continuo ralando."
-tag: Emprego
+categories: emprego
 ---
 Vivemos em um momento que a palavra crise virou um mantra, o medo de ficar desempregado vem tomando conta das pessoas, também tem gente colocando desculpa nela por não conseguir se empregar, tenho visto pessoas da área de TI dizendo que estão desempregadas a mais de cinco, seis, sete ... meses, na boa, a coisa não está tão feia assim, isso se chama comodismo, empregos não caem do céu, "Acorda malandro e vai trabalhar (...)", salve se tiver uma rede de contatos quente, isso ajuda e muito.
 

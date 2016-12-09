@@ -4,7 +4,7 @@ title:  "Dica #01 :: Trello"
 cover: trello.png
 date:   2015-10-04 11:48:17
 description: "Dicas para o seu dia-a-dia"
-tag: Dicas
+categories: dicas
 ---
 
 Essa é a primeira dica, muitos já conhecem já outros não, para você que ainda não usa ou nunca ouviu falar, o [Trello](https://trello.com/){:target="_blank"} é uma aplicação para criar listas de tarefas do tipo Kanban, ou seja são basicamente três listas:

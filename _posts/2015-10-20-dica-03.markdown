@@ -4,7 +4,7 @@ title: "Dica #03 :: Web Clipper"
 date:  2015-10-20 22:48:17
 cover: web-clipper.png
 description: "Dicas para o seu dia-a-dia"
-tag: Dicas
+categories: dicas
 ---
 
 Olá, semana passada falei do Evernote, hoje a dica é usar o [Web Clipper](https://evernote.com/intl/pt-br/webclipper/){:target="_blank"}, uma plugin do Evernote que você instala em seu navegador preferido.
