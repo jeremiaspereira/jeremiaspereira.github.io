@@ -13,17 +13,17 @@ O ano está acabando, chegamos a novembro, ainda dá tempo de você ler esse liv
 
 O livro traz o ponto de vista de um repórter cheio de neuras e um tanto individualista sobre a meditação e o impacto dela em sua vida.
 
-Dan Harris é um repórter da ABC, um cara que chegou cedo a grande empresa de TV, assombrado pelo medo de um novato tomar seu posto e vivendo para ser aceito pelos mais velhos de casa, sua vida é auto cobrança, autocrítica.
+Dan Harris é um repórter da ABC, um cara que chegou cedo a grande empresa de TV. Assombrado pelo medo de um novato tomar seu posto e vivendo para ser aceito pelos mais velhos de casa, sua vida é autocobrança e autocrítica.
 
 Dan é um cara como qualquer um de nós com aquela voz chata dentro da cabeça que não cala, está sempre pronta a avaliar, condenar, criticar ou qualquer coisa que ela bem entende. Dan vive para ser o melhor, ele é escravo do desejo de chegar ao topo, custe o que custar.
 
-Após uma fase de depressão, uso de drogas, crises de pânico, ele começa a fazer reportagens religiosas e conhece grandes líderes espirituais, a todo o momento no livro ele está rotulando pessoas que conhece, sua primeira impressão é logo desfeita quando conhece mais a fundo, assim somos nós, rotuladores impiedosos.
+Após uma fase de depressão, uso de drogas, crises de pânico, ele começa a fazer reportagens religiosas e conhece grandes líderes espirituais, a todo o momento no livro ele está rotulando as pessoas que conhece, sua primeira impressão é logo desfeita quando conhece mais a fundo, assim somos nós, rotuladores impiedosos.
 
-Ele é fisgado pela meditação, decide participar de um retiro de 10 dias com comida vegetariana e  silêncio, ele relata cada dia no livro em busca de acalmar sua "mente de macaco", relata os conselhos que recebe e sua vida pós retiro.
+Fisgado pela meditação, decide participar de um retiro de 10 dias com comida vegetariana e silêncio, ele relata cada dia no livro em busca de acalmar sua "mente de macaco", relata os conselhos que recebe e sua vida pós retiro.
 
-Diferente de qualquer outro livro sobre o assunto meditação que já li esse trás a visão de alguém normal que foi em busca da meditação para acalmar a mente e ter uma vida mais feliz. Muitas vezes o assunto é tratado por um monge ou um guia espiritual que já colhe os benefícios, esse livro diferentemente mostra como é possível qualquer pessoa  obter os benefícios da meditação.
+Diferente de qualquer outro livro sobre o assunto meditação que já li esse trás a visão de uma pessoa comum que foi em busca da meditação para acalmar a mente e ter uma vida mais feliz. Muitas vezes o assunto é tratado por um monge ou um guia espiritual que já colhe os benefícios, esse livro diferentemente mostra como é possível qualquer pessoa  obter os benefícios da meditação.
 
-Para começar a  meditar é preciso esquecer suas ideias preconcebidas sobre o assunto, ela pode ser praticada por qualquer um diferente da religião que assuma ter. A meditação e o budismo unidos podem trazer um significado novo a vida, mais felicidade, auto compaixão e desapego.
+Para começar a meditar é preciso esquecer suas ideias preconcebidas sobre o assunto, ela pode ser praticada por qualquer um diferente da religião que assuma ter. A meditação e o budismo unidos podem trazer um significado diferente a vida, mais felicidade, autocompaixão e desapego.
 
 Deixamos de viver em atenção plena quando crescemos, quando crianças estamos totalmente focados em nossas atividade e brincadeiras, tudo é novo e fascinante, conforme vamos crescendo vamos vivendo no automático. Fazemos várias coisas ao mesmo tempo sem pensar, sentir e apreciar.
 
@@ -31,7 +31,7 @@ Deixamos de viver em atenção plena quando crescemos, quando crianças estamos 
 
 Nossa mente está constantemente revirando o passado, nos causando dor e sofrimento ou no futuro fantasiando, gerando ansiedade, enquanto o presente passa batido, nosso ego não nos quer no presente.
 
-Não dá para controlar o que vem a nossa mente, mas podemos controlar como responder a esses pensamentos. Do nada vem pensamentos de pessoas que nos magoaram no passado, nossa mente responde com raiva, tristeza, desejo de vingança e tantos outras respostas negativas, podemos começar a olhar para esses sentimentos de uma forma diferente, rotular como algo que nos magoou naquela época, mais que nos vez crescer, aprender algo, amadurecer, em um nível mais profundo, com um olhar Budista  podemos considerar essa pessoa como um guia espiritual que nos permitiu ter essas experiências com o objetivo de autoconhecimento.
+Não dá para controlar o que pensamos mas podemos controlar como respondemos aos pensamentos. As vezes pensamos em alguém que nos magoou e então sem perceber novos pensamentos como tristeza, desejo de vingança e tantos outras respostas negativas acontecem automaticamente, podemos começar a olhar para essa pessoa de uma forma diferente, nos magoou naquela época, mas proporcionou crescimento, aprendizado, amadurecimento. Em um nível mais profundo, com um olhar Budista  podemos considerar essa pessoa como uma guia espiritual que nos permitiu ter essas experiências com o objetivo de autoconhecimento. Com essa prática podemos diminuir e até mesmo eliminar as respostas negativas que temos por essa pessoa.
 
 Você pode ter uma vida 10% mais feliz ou mais com a meditação, mas precisa começar e parar de falar que não consegue e já tentou, muitas vezes tentou uma vez, eu venho meditando a algum tempo e ainda sou dominado por minha mente.
 
