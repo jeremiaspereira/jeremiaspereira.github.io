@@ -17,27 +17,29 @@ Meus 12 livros estão listados a seguir, a cada livro lido falarei sobre ele em 
 
 
 <div class="books-list">
-    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/01/31/12-meses-12-livros-janeiro.html"> [JANEIRO]   Senhor Das Moscas - William Golding (1954)</a></p>
+    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/01/31/12-meses-12-livros-janeiro.html"> JANEIRO -  Senhor Das Moscas - William Golding (1954)</a></p>
 
-    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/02/29/12-meses-12-livros-fevereiro.html"> [FEVEREIRO] Fahrenheit 451 - Ray Bradbury (1953)</a></p>
+    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/02/29/12-meses-12-livros-fevereiro.html"> FEVEREIRO - Fahrenheit 451 - Ray Bradbury (1953)</a></p>
 
-    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/03/28/12-meses-12-livros-marco.html"> [MARÇO] 1984 – George Orwell (1949)</a></p>
+    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/03/28/12-meses-12-livros-marco.html"> MARÇO - 1984 – George Orwell (1949)</a></p>
 
-    <p><i class="fa fa-check-square-o"></i>  <a href="/livros/2016/04/30/12-meses-12-livros-abril.html"> [ABRIL] As crônicas marcianas – Ray Bradbury (1960)</a></p>
+    <p><i class="fa fa-check-square-o"></i>  <a href="/livros/2016/04/30/12-meses-12-livros-abril.html"> ABRIL - As crônicas marcianas – Ray Bradbury (1960)</a></p>
 
-    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/05/30/12-meses-12-livros-maio.html"> [MAIO] O Sol É Para Todos - Harper Lee (1960)</a></p>
+    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/05/30/12-meses-12-livros-maio.html"> MAIO - O Sol É Para Todos - Harper Lee (1960)</a></p>
 
-    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/06/30/12-meses-12-livros-junho.html"> [JUNHO] *Guerra dos mundos – WELLS, H. G. (1898)</a></p>
+    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/06/30/12-meses-12-livros-junho.html"> JUNHO - *Guerra dos mundos – WELLS, H. G. (1898)</a></p>
 
-    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/07/30/12-meses-12-livros-julho.html"> [JULHO] *Memórias Póstumas de Brás Cubas, Machado de Assis (1881)</a></p>
+    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/07/30/12-meses-12-livros-julho.html"> JULHO - *Memórias Póstumas de Brás Cubas, Machado de Assis (1881)</a></p>
 
-    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/08/30/12-meses-12-livros-agosto.html"> [AGOSTO] *Os Segredos da Mente Milionária - T. Harv Eker (2006)</a></p>
+    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/08/30/12-meses-12-livros-agosto.html"> AGOSTO - *Os Segredos da Mente Milionária - T. Harv Eker (2006)</a></p>
 
-    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/09/30/12-meses-12-livros-setembro.html"> [SETEMBRO] *Pai rico pai pobre -  Robert Kiyosaki, Sharon Lechter (1997)</a></p>
+    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/09/30/12-meses-12-livros-setembro.html"> SETEMBRO - *Pai rico pai pobre -  Robert Kiyosaki, Sharon Lechter (1997)</a></p>
 
-    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/10/30/12-meses-12-livros-outubro.html"> [OUTUBRO] *Essencialismo -  Greg McKeown (2015)</a></p>
+    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/10/30/12-meses-12-livros-outubro.html"> OUTUBRO - *Essencialismo -  Greg McKeown (2015)</a></p>
 
-    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/11/30/12-meses-12-livros-novembro.html"> [NOVEMBRO] *10% mais feliz - Dan Harris (2015)</a></p>
+    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/11/30/12-meses-12-livros-novembro.html"> NOVEMBRO - *10% mais feliz - Dan Harris (2015)</a></p>
+
+    <p><i class="fa fa-check-square-o"></i> <a href="/livros/2016/12/31/12-meses-12-livros-dezembro.html"> DEZEMBRO - *Pare de se sabotar e dê a volta por cima - Flip Flippe (2010)</a></p>
 
     <p><i class="fa fa-square-o"></i> Guia do Mochileiro das Galáxias - Douglas Adams (1979)</p>
 
@@ -55,4 +57,3 @@ Meus 12 livros estão listados a seguir, a cada livro lido falarei sobre ele em 
 
     <p>*Livros que não estavam na listagem proposta.</p>
 </div>
-

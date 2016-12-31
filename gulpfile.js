@@ -3,14 +3,17 @@ var gulp        = require('gulp'),
 	browserSync = require('browser-sync'),
 	sass        = require('gulp-sass'),
 	concat      = require('gulp-concat'),
+	del         = require('del'),
+	gutil       = require('gulp-util'),
 	exec        = require('child_process').exec;
+
+// Configs gulp
+var config = require('./gulp.config.js');
 
 
 var messages = {
 	jekyllBuild: '<div style="color:#8ABEBC;">Running: $jekyll build</div> '
 };
-
-
 
 /**
  * Build the Jekyll Site
@@ -58,5 +61,19 @@ gulp.task('watch', function () {
 	gulp.watch(['css/*', '*.md', '*.html', '_includes/*.html', '_layouts/*.html', '_posts/*', 'categoria/*.html'], ['jekyll-rebuild']);
 });
 
+
+/**
+ * Task to cleanup every files
+ */
+gulp.task('clean', function(done) {
+  gutil.log('Cleaning ...', gutil.colors.green(config.site));
+  return del([
+    config.paths.html,
+		config.paths.css,
+		config.paths.xml,
+		config.paths.assets
+  ]);
+  done();
+});
 
 gulp.task('default', ['browser-sync', 'watch']);
