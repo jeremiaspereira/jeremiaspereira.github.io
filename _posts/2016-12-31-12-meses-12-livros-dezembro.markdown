@@ -12,7 +12,7 @@ A meta era ler 12 livros um a cada mês e escrever sobre aqui, esse é o último
 
 Esse último livro é bem bacana, na linha de autoconhecimento, algo que venho buscando a cada dia, o assunto como diz o título são as nossas limitações e o quanto elas podem nos travar e não permitir que avancemos em nossas vidas, quando conhecemos o que nos broqueia de crescer temos a possibilidade de mudar o jogo, de cortar o mal pela raiz, menos limitações pode significar mais sucesso.
 
-Nem sempre ter aptidões, dons é o suficiente, pois as limitações as anulam e paralisam o avanço das pessoas, conheço pessoas com dons incríveis mas com limitações que as deixam onde estão.
+Nem sempre ter aptidões, dons é o suficiente, pois as limitações as anulam e paralisam o avanço, conheço pessoas com dons incríveis mas com limitações que as deixam onde estão.
 
 > "Não me importo de ter limitações pessoais que preciso encarar. Só não quero ter, no ano que vem, as mesmas que tenho esse ano."
 
