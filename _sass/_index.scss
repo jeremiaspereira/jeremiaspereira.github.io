@@ -1,0 +1,123 @@
+$wxs: 100vw;
+$wsm: 750px;
+
+.index {
+  overflow: hidden;
+  @media (min-width: $screen-xs-max) {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    overflow: inherit;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  @media (min-width: $screen-sm-max) {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.box {
+  @include size($wxs);
+
+  @media (min-width: $screen-sm-max) {
+    @include size($wsm);
+  }
+}
+
+.row {
+  display: block;
+  width: 100%;
+  border: solid 1px map-get($colors, dark );
+  @media (min-width: $screen-xs-max) {
+    display: flex;
+  }
+}
+
+.avatar,
+.social,
+.about {
+  border: solid 1px map-get($colors, dark );
+}
+
+.avatar {
+  @include size(null, $wxs);
+
+  background: map-get($colors, primary);
+
+  @media (min-width: $screen-xs-max) {
+    @include size($wxs, $wxs, 2, 2);
+  }
+  @media (min-width: $screen-sm-max) {
+    @include size($wsm, $wsm, 2, 2);
+  }
+  img {
+    width: 80vw;
+    margin: 10vw;
+    @media (min-width: $screen-xs-max) {
+      width: 40vw;
+      margin: 5vw;
+    }
+    @media (min-width: $screen-sm-max) {
+      width: 70%;
+      margin: 15%;
+    }
+  }
+}
+
+.social {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  overflow: inherit;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: map-get($colors, secondary);
+  text-align: center;
+
+  align-items: center;
+  justify-content: center;
+  @media (min-width: $screen-xs-max) {
+    @include size($wxs, $wxs, 2, 2);
+  }
+  @media (min-width: $screen-sm-max) {
+    @include size($wsm, $wsm, 2, 2);
+  }
+
+  .icons {
+    display: flex;
+    margin: 20px 0;
+    font-size: 20px;
+    li {
+      margin: 0;
+      margin-left: -2px;
+      list-style: none;
+    }
+
+    a {
+      display: block;
+      padding: 10px;
+      border: solid 2px map-get($colors, dark );
+      color: map-get($colors, dark);
+      text-decoration: none;
+    }
+  }
+}
+
+.about {
+  margin-top: -2px;
+  padding: 20px;
+  background: map-get($colors, tertiary);
+  @media (min-width: $screen-xs-max) {
+    @include size($wxs, $wxs, 1, 2);
+  }
+  @media (min-width: $screen-sm-max) {
+    @include size($wsm, $wsm, 1, 2);
+  }
+}

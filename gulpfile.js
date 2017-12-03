@@ -46,7 +46,7 @@ gulp.task('browser-sync', ['jekyll'], function() {
 
 /* Concatena os scss e gera um css*/
 gulp.task('sass', function(){
-  return gulp.src('./assets/sass/*.scss')
+  return gulp.src('./_sass/_main.scss')
     .pipe(plumber())
     .pipe(concat('main.css'))
     .pipe(sass().on('error', sass.logError))
@@ -56,8 +56,7 @@ gulp.task('sass', function(){
 
 
 gulp.task('watch', function () {
-	gulp.watch('_sass/*.scss', ['sass']);
-  gulp.watch(['_site/css/*.css'], ['site-reload']);
+	gulp.watch('_sass/*.scss', ['jekyll-rebuild', 'site-reload']);
 	gulp.watch(['css/*', '*.md', '*.html', '_includes/*.html', '_layouts/*.html', '_posts/*', 'categoria/*.html'], ['jekyll-rebuild']);
 });
 
@@ -76,4 +75,4 @@ gulp.task('clean', function(done) {
   done();
 });
 
-gulp.task('default', ['browser-sync', 'watch']);
+gulp.task('default', ['clean','browser-sync','jekyll-rebuild', 'watch']);

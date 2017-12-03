@@ -1,0 +1,40 @@
+@charset 'utf-8';
+$screen-xs-max: 600px;  // Celular
+$screen-sm-max: 800px;  // ipad vertical
+$screen-md-max: 1024px;  // Ipad horizontal
+
+
+
+
+
+/****************************************
+* Social color
+*****************************************/
+
+$google-plus: #d34331;
+$twitter: #1b86bc;
+$flickr: #ff0085;
+$linkedin: #1b86bc;
+$instagram: #517fa4;
+$facebook: #43609c;
+$github: #000;
+
+/****************************************
+* Map color
+*****************************************/
+
+$colors: (
+    primary: #53c0ab,
+    secondary:#df5b49,
+    tertiary: #eec84d,
+    dark: #000,
+    white: #fff,
+    bg:  #1f899f,
+    accent: #4444e4,
+    inactive: #8e8eec,
+    link: #3975b9,
+    hover: #0f0f6c,
+    active: #080840,
+    focus: #59e8b3
+  );
+$text-color: map-get($colors, dark );

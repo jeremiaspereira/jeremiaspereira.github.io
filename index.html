@@ -2,92 +2,44 @@
 layout: default
 ---
 
-<section class="img-header">
-  <div class="bg-home" style="background-image: url('/assets/img/bg-home.jpg');">
-       <a href="#home">
-        <ul class='triangle'>
-          <li class="t-0"></li>
-          <li class="t-1"></li>
-          <li class="t-2"></li>
-        </ul>
-      </a>
+<section class="index">
+  <div class="box">
+    <div class="row">
+      <div class="avatar">
+        <img src="/assets/clientlib-utilities/img/avatar.png" alt="">
+      </div>
+      <div class="social">
+          <ul class="icons">
+            <li><a href="https://www.linkedin.com/in/jeremiaspereira/" class="icon-linkedin" target="_blank"></a></li>
+            <li><a href="https://twitter.com/perejere" class="icon-twitter" target="_blank"></a></li>
+            <li><a href="https://dribbble.com/jeremiaspereira" class="icon-dribbble" target="_blank"></a></li>
+            <li><a href="https://www.behance.net/JeremiasPereira" class="icon-behance" target="_blank"></a></li>
+            <li><a href="https://www.instagram.com/jeremias_pereira/" class="icon-instagram" target="_blank"></a></li>
+            <li><a href="https://github.com/jeremiaspereira" class="icon-git" target="_blank"></a></li>
+            <li><a href="https://www.strava.com/athletes/jeremiaspereira" class="icon-strava" target="_blank"></a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="about">
+ 
+          <h1>Hello</h1>
+
+          <p>
+            I'm Jeremias Pereira, Front-end developer at  <a href="http://www.ciandt.com/br-pt" >CI&T  Campinas, Brazil</a>
+          </p>
+          <p>  
+            Since 2015 I've been working with development, before I worked as an electronic technician.
+          </p>
+          <p>
+            Running and biking are my favorite sports, my kindle always accompanies me, lover of simple life thing like cake and coffee.
+          </p>
+          <p>
+            I want to code less soon and devote more to the interface design area.
+          </p>
+
+          <p>Email is the best way to reach me. jeremiastpereira@gmail.com</p>
+      </div>
+    </div>
   </div>
-</section>
-
-<section class="home" id="home">
-  <section class="slice-home slice-home__sobre">
-    <article class="inner-content">
-      <h1>Hey</h1>
-      <p>Aqui Jeremias Pereira</p>
-      <p>Mineiro e dev front end.</p>
-
-      <a href="{{ post.url }}sobre" class="link-sobre">
-        <ul class='diamond'>
-          <li class="d-0"></li>
-          <li class="d-1"></li>
-          <li class="d-2"></li>
-          <li class="d-3"></li>
-          <li class="d-4"></li>
-          <li class="d-5"></li>
-          <li class="d-6"></li>
-        </ul>
-      </a>
-    </article>
-  </section>
-
-  <section class="slice-home slice-home__blog">
-    <article class="inner-content">
-      <h1>Últimos artigos</h1>
-      <ul class="post-list">
-        {% for post in site.posts limit:3 %}
-          <li>
-            <a href="{{ post.url }}">
-              <div class="post-list__date">
-                {% assign m = post.date | date: "%-m" %}
-                {{ post.date | date: "%d" }}
-                {% case m %}
-                  {% when '1' %}Jan
-                  {% when '2' %}Fev
-                  {% when '3' %}Mar
-                  {% when '4' %}Abr
-                  {% when '5' %}Mai
-                  {% when '6' %}Jun
-                  {% when '7' %}Jul
-                  {% when '8' %}Ago
-                  {% when '9' %}Set
-                  {% when '10' %}Out
-                  {% when '11' %}Nov
-                  {% when '12' %}Dez
-                {% endcase %}
-                {{ post.date | date: "%Y" }}
-              </div>
-              <div class="post-list__title">
-                {{ post.title }}
-              </div>
-           </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </article>
-  </section>
-
-   <section class="slice-home slice-home__social">
-    <article class="inner-content">
-      <ul class="social-icons">
-        <li><a href="https://www.facebook.com/jeremias.pereira.mg" target="_blank"><i class="fa fa-facebook" aria-hidden="true" id="facebook-home"></i></a></li>
-        <li><a href="https://plus.google.com/u/0/+JeremiasPereira" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-        <li><a href="https://www.instagram.com/jeremias_pereira/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-        <li><a href="https://github.com/jeremiaspereira/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-        <li><a href="https://twitter.com/perejere" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        <li><a href="https://www.flickr.com/photos/jeremiaspereira" target="_blank"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/jeremiaspereira" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-         <li><a href="https://dribbble.com/jeremiaspereira" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-      </ul>
-    </article>
-  </section>
-
-  <section class="footer">
-    <p>Copyright © 2016 Jeremias Pereira. Designed by me</p>
-  </section>
-
 </section>

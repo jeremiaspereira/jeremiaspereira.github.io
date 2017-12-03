@@ -18,272 +18,78 @@ dd,
 ol,
 ul,
 figure {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 
 @font-face {
   font-family: 'Raleway';
+  src: url(../assets/clientlib-utilities/fonts/raleway/Raleway-Regular.ttf);
   font-weight: normal;
-  src: url(../assets/fonts/raleway/Raleway-Regular.ttf);
 }
 @font-face {
   font-family: 'Raleway';
+  src: url(../assets/clientlib-utilities/fonts/raleway/Raleway-Light.ttf);
   font-weight: 300;
-  src: url(../assets/fonts/raleway/Raleway-Light.ttf);
 }
 @font-face {
   font-family: 'Raleway';
+  src: url(../assets/clientlib-utilities/fonts/raleway/Raleway-Medium.ttf);
   font-weight: 500;
-  src: url(../assets/fonts/raleway/Raleway-Medium.ttf);
 }
 
 @font-face {
   font-family: 'Raleway';
+  src: url(../assets/clientlib-utilities/fonts/raleway/Raleway-Bold.ttf);
   font-weight: bold;
-  src: url(../assets/fonts/raleway/Raleway-Bold.ttf);
 }
 
 @font-face {
   font-family: 'Comfortaa';
+  src: url(../assets/clientlib-utilities/fonts/Comfortaa/Comfortaa_Regular.ttf);
   font-weight: bold;
-  src: url(../assets/fonts/Comfortaa/Comfortaa_Regular.ttf);
 }
 
 
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 /**
  * Basic styling
  */
+
+html,
 body {
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-  font-weight: 500;
-  line-height: $base-line-height;
+  height: 100%;
+  margin: 0;
   color: $text-color;
-  background-color: $background-color;
-
-  -webkit-text-size-adjust: 100%;
-  @media (max-width: $screen-xs-max) {
-    font-size: 16px;
-  }
+  font-family: 'Raleway';
 }
 
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-ul,
-ol,
-dl,
-figure,
-%vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
-}
-
-p {
-  padding-top: 10px;
-  line-height: 1.58;
-}
-
-
-/**
- * Images
- */
-img {
-  max-width: 100%;
-  vertical-align: middle;
-}
-
-
-/**
- * Lists
- */
-ul,
-ol {
-  margin: 0;
-}
-
-li {
-  margin: 0;
-  list-style: none;
-}
-
-/**
- * Headings
- */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Raleway', 'Open Sans';
-  font-weight: normal;
-}
 
 h1 {
-  font-size: 1.6em;
-}
-
-h2 {
-  margin-top: $spacing-unit / 2;
-  font-size: 1.2em;
-  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 27px;
 }
 
 h3 {
-  font-size: 1.1em;
-  font-weight: 500;
+  margin-bottom: 16px;
+  font-size: 20px;
 }
 
-/**
- * Links
- */
+p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+}
+
 a {
-  color: $brand-color;
+  color: map-get($colors, link);
   text-decoration: none;
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
-  &:hover {
-    color: lighten($brand-color , 2%);
-    text-decoration: none;
-  }
-}
-
-
-hr {
-  border: 0;
-}
-
-hr.section-divider:before {
-    font-family: medium-content-slab-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 24px;
-    letter-spacing: .6em;
-    content: '...';
-    display: inline-block;
-    margin-left: .6em;
-    color: rgba(0,0,0,.6);
-    position: relative;
-    top: -50px;
-    display: block;
-    border: 0;
-    text-align: center;
-    margin: 70px 0;
-}
-
-/**
- * Clearfix
- */
-.clearfix {
-  &:after {
-    display: table;
-    clear: both;
-    content: '';
-  }
-}
-
-.pull-left {
-  float: left !important;
-}
-.pull-right {
-  float: right !important;
-}
-
-.text-center {
-  text-align: center;
-}
-
-blockquote {
-  padding-left: $spacing-unit / 2;
-  margin: 20px 0;
-  font-size: .9em;
-  font-style: italic;
-  letter-spacing: 0;
-  color: lighten($text-color, 10);
-  border-left: solid 2px $brand-color;
-  > :last-child {
-    margin-bottom: 0;
-  }
-  > p {
-    padding-top: 0;
-  }
-}
-
-em {
-  display: block;
-  padding: 5px 0;
-  font-style: normal;
-  font-weight: bold;
-  letter-spacing: 1px;
-  color: lighten($text-color, 1%);
-}
-
-code {
-  display: block;
-  padding-bottom: 25px;
-  margin: 15px 0;
-  overflow: auto;
-  background: #f9f9f9;
-  border: solid 1px #ddd;
-  border-top: solid 5px #ddd;
-}
-
-
-
-
-/*************************************************************
-// Grids
-**************************************************************/
-
-
-* {
-  box-sizing: border-box;
-}
-
-$grid-gutter: 1%;
-$grid-columns: 12;
-$grid-max: $content-width;
-
-
-[class*='grid-'] {
-  float: left;
-  padding: 0 $grid-gutter;
-}
-
-@for $i from 1 through $grid-columns {
-  .grid-md-#{$i} {
-    width: 100% / $grid-columns * $i;
-  }
-}
-
-@media (max-width: $screen-sm-max) {
-  @for $i from 1 through $grid-columns {
-    .grid-sm-#{$i} {
-      width: 100% / $grid-columns * $i;
-    }
-  }
-}
-
-.img-responsive {
-  display: block;
-  height: auto;
-  max-width: 100%;
-}
-
-.img-instagram {
-  padding: 5px 0;
 }
