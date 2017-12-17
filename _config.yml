@@ -1,7 +1,7 @@
 # Site settings
 title: jeremiaspereira.github.io
 email: jeremiastpererira@gmail.com
-description: 'Um mineiro na cidade grande, front-end por amor, vegano por respeito a vida, falando sobre coisas que gosta'
+description: 'Front-end Developer, running and biking are my favorite sports, my kindle always accompanies me, lover of simple life thing like cake and coffee.'
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://jeremiaspereira.github.io" # the base hostname & protocol for your site
 twitter_username: jerepere
